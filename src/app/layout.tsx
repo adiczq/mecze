@@ -15,12 +15,23 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Górnik Radlin – Mecze",
   description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
-  applicationName: "Górnik Radlin – Mecze",
+  metadataBase: new URL("https://mecze.adiczq.dev"),
+
   openGraph: {
     title: "Górnik Radlin – Mecze",
     description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
-    type: "website",
+    url: "https://mecze.adiczq.dev",
+    siteName: "Górnik Radlin – Mecze",
     locale: "pl_PL",
+    type: "website",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Górnik Radlin – Mecze",
+      },
+    ],
   },
 };
 
