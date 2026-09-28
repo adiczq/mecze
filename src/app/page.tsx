@@ -73,13 +73,28 @@ export default function Home() {
             Mecze
           </h1>
 
-          <p className="mt-4 max-w-2xl text-base leading-7 text-zinc-400 sm:text-lg">
-            Najbliższe mecze Żaków, Trampkarzy i Seniorów Górnika Radlin w
-            jednym miejscu.
+          <p className="mt-3 max-w-2xl text-base text-zinc-400 sm:text-lg">
+            Terminarz drużyn Górnika Radlin.
           </p>
         </header>
 
-        <section className="grid gap-5 md:grid-cols-3">
+        <section className="mb-8 grid grid-cols-3 gap-2 md:hidden">
+          {teams.map((team) => (
+            <Link
+              key={team.slug}
+              href={`/${team.slug}`}
+              className="flex min-h-20 flex-col items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-2 text-center transition active:scale-95 active:border-blue-500"
+            >
+              <span className="text-sm font-bold text-white">{team.name}</span>
+
+              <span className="mt-1 text-[10px] uppercase tracking-wide text-zinc-500">
+                Terminarz
+              </span>
+            </Link>
+          ))}
+        </section>
+
+        <section className="hidden gap-5 md:grid md:grid-cols-3">
           {teams.map((team) => {
             const nextMatch = team.matches[0];
             const isHome = nextMatch
