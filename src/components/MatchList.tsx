@@ -6,6 +6,23 @@ type MatchListProps = {
   emptyMessage?: string;
 };
 
+function getMatchCountLabel(count: number) {
+  if (count === 1) return "mecz";
+
+  const lastDigit = count % 10;
+  const lastTwoDigits = count % 100;
+
+  if (
+    lastDigit >= 2 &&
+    lastDigit <= 4 &&
+    !(lastTwoDigits >= 12 && lastTwoDigits <= 14)
+  ) {
+    return "mecze";
+  }
+
+  return "meczów";
+}
+
 export default function MatchList({
   matches,
   emptyMessage = "Brak meczów do wyświetlenia.",
@@ -43,7 +60,7 @@ export default function MatchList({
 
             <span className="text-sm text-zinc-500">
               {upcomingMatches.length}{" "}
-              {upcomingMatches.length === 1 ? "mecz" : "meczów"}
+              {getMatchCountLabel(upcomingMatches.length)}
             </span>
           </div>
 
