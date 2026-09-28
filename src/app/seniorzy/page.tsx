@@ -1,6 +1,7 @@
 import MatchList from "@/components/MatchList";
 import matchesData from "@/data/seniorzy.json";
 import type { Match } from "@/lib/types";
+import Link from "next/link";
 
 export default function SeniorzyPage() {
   const matches = matchesData as Match[];
@@ -8,6 +9,13 @@ export default function SeniorzyPage() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
       <div className="mx-auto max-w-4xl px-5 py-10">
+        <Link
+          href="/"
+          className="mb-6 inline-flex items-center gap-2 text-sm font-semibold text-zinc-400 transition hover:text-blue-400"
+        >
+          <span>←</span>
+          <span>Mecze</span>
+        </Link>
         <p className="text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
           Górnik Radlin
         </p>
