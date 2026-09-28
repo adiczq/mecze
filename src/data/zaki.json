@@ -1,0 +1,52 @@
+[
+  {
+    "id": "2ffb6ff6-f3c0-4dfe-8514-906cdf4683ba",
+    "date": "2026-10-04",
+    "time": "14:30",
+    "homeTeam": "KS GÓRNIK RADLIN",
+    "awayTeam": "KS BARANOWICE - ŻORY",
+    "venue": "Odległa 140 , 44-310 Radlin",
+    "round": "Kolejka 5",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "d0df56d6-ec6c-4369-af10-ced7a514a0ba",
+    "date": "2026-10-10",
+    "time": "14:30",
+    "homeTeam": "KS GÓRNIK RADLIN",
+    "awayTeam": "UKS ORZEŁ MOSZCZENICA",
+    "venue": "Odległa 140 , 44-310 Radlin",
+    "round": "Kolejka 6",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "78f8479c-6c42-46d8-af70-a3e4784e5127",
+    "date": "2026-10-18",
+    "time": "13:00",
+    "homeTeam": "LKS FORTECA ŚWIERKLANY",
+    "awayTeam": "KS GÓRNIK RADLIN",
+    "venue": "Zamkowa 6A , 44-266 Świerklany",
+    "round": "Kolejka 7",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "2478be84-37e6-4daa-914b-e6a695ce4af7",
+    "date": "2026-10-25",
+    "time": "13:00",
+    "homeTeam": "KS GÓRNIK RADLIN",
+    "awayTeam": "UKS RAP RYBNIK",
+    "venue": "Odległa 140 , 44-310 Radlin",
+    "round": "Kolejka 8",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "05c04520-4267-4085-b693-05b5f348599c",
+    "date": "2026-10-31",
+    "time": "12:00",
+    "homeTeam": "KLUB PIŁKARSKI KAMIEŃ",
+    "awayTeam": "KS GÓRNIK RADLIN",
+    "venue": "Hotelowa 12 , 44-213 Rybnik",
+    "round": "Kolejka 9",
+    "source": "Łączy Nas Piłka"
+  }
+]

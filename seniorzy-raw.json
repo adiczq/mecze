@@ -1,0 +1,2883 @@
+[
+    {
+        "matchId": "c598805f-cd48-4dfb-a07b-82e9d25dfc84",
+        "dateTime": "2026-11-15T13:30:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "15470f9d-5301-4cb9-b7ae-c72f9694ec73",
+        "dateTime": "2026-11-15T13:30:00",
+        "stadium": "LKS Silesia Lubomia (Lubomia, Jana Nepomucena 20)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "be089864-8890-4243-b699-262f0c2bc04d",
+        "dateTime": "2026-11-14T13:30:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "78ca4452-5206-4b77-87e7-7ff00bcbc3c8",
+        "dateTime": "2026-11-14T13:30:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "c223eed9-bf1f-4a2f-980b-68a2c83e4e20",
+        "dateTime": "2026-11-14T13:30:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "00a44333-d5b8-4b16-a550-dad508de2396",
+        "dateTime": "2026-11-14T13:30:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "249566b6-36a0-4dda-8c16-ba592afef4ac",
+        "dateTime": "2026-11-14T13:30:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "fc3a02a5-dd58-439e-bad9-0fe70da5912b",
+        "dateTime": "2026-11-14T13:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Nierozegrany",
+        "queue": 15,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "d8d4dcf2-4979-495b-b546-8d3ed6ba306e",
+        "dateTime": "2026-11-08T14:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "28fa7ebc-a590-491e-a4bc-74d35a4270a8",
+        "dateTime": "2026-11-07T18:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "5db734f6-376a-4277-a666-f1bc0844d5b0",
+        "dateTime": "2026-11-07T14:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "bb9fa9b5-a29a-400e-8cbb-50c50b762213",
+        "dateTime": "2026-11-07T14:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "8b96935b-6859-46f7-8efd-b73fb54133e6",
+        "dateTime": "2026-11-07T14:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "dd0c0f52-50b6-403b-8fed-58bf3bb9a94d",
+        "dateTime": "2026-11-07T14:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "abd29c7d-45af-4a50-bbd8-bfd4c7ef45ce",
+        "dateTime": "2026-11-07T14:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "f265c4ee-9b35-46fa-8f92-70678a72e3ce",
+        "dateTime": "2026-11-07T14:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Nierozegrany",
+        "queue": 14,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "808e3094-1511-49bf-8a75-7cf75c5eab3e",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "fbe8fea0-f02a-4cf4-9884-a53ea36d64aa",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "a9564df9-9609-409d-a250-8e5d72011650",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "595f7212-043b-43d4-9f26-3ea2c95bb9da",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "LKS Silesia Lubomia (Lubomia, Jana Nepomucena 20)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "177bc80f-ae0c-42b1-b26f-317bdd8d1c69",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "dae56aba-e128-445e-a290-8b1d9c30419b",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "b26f8394-faf6-4320-bf04-3240df4d8182",
+        "dateTime": "2026-10-31T14:00:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "f31d4fe1-58d4-477d-b418-dc13b35c88dd",
+        "dateTime": "2026-10-31T11:00:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Nierozegrany",
+        "queue": 13,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "83c6ce58-8b21-4235-a8b8-dd2f43ee85d4",
+        "dateTime": "2026-10-25T15:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "2f9bc923-f8e7-4d87-b62b-c51c9bed0453",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "a8e07be2-4e54-4487-8494-7e30d4b32feb",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "a94ba86e-d2ca-4e1a-a0e9-01211a5472b6",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "175073da-acb9-416c-bc81-5f17c8b58dd5",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "447ad8a2-eaed-4b76-abb3-a52808d46f9f",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "2464ab96-89ad-43ed-b9bf-10b240df52fd",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "dbd5850e-14a5-4359-a617-d0545f434223",
+        "dateTime": "2026-10-24T15:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Nierozegrany",
+        "queue": 12,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "c1c8ef30-8c86-46d9-8d13-1a2cfa8215f9",
+        "dateTime": "2026-10-18T15:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "563968d5-0a5c-4ca0-ad6b-d0fc07b888e5",
+        "dateTime": "2026-10-18T15:00:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "adda43ef-6aec-4a3f-ba13-c7ffc8159605",
+        "dateTime": "2026-10-18T15:00:00",
+        "stadium": "LKS Silesia Lubomia (Lubomia, Jana Nepomucena 20)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "d40e7027-b98a-4aff-952f-aa257f4256cd",
+        "dateTime": "2026-10-17T15:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "8318bcee-398c-4b05-b805-26464c25d072",
+        "dateTime": "2026-10-17T15:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "bc889e11-2fe2-4129-89ea-0634ba8264e3",
+        "dateTime": "2026-10-17T15:00:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "39dd5789-638d-4733-89ee-8cb43e9106cc",
+        "dateTime": "2026-10-17T15:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "6286183e-191d-48ea-8fb2-b2e65dc35bd5",
+        "dateTime": "2026-10-17T15:00:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Nierozegrany",
+        "queue": 11,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "8bb96924-5d39-450a-9e0a-6ed0a87afe11",
+        "dateTime": "2026-10-11T15:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "719a0384-ac5f-4a00-bfa4-1e5706839608",
+        "dateTime": "2026-10-11T15:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "20b840d7-a295-4929-ba27-bbc8f715a755",
+        "dateTime": "2026-10-10T15:00:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "0bbc25fd-045d-464d-878e-a89d6313d6f6",
+        "dateTime": "2026-10-10T15:00:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "37caad16-edc1-45c4-b3d5-62899ce25a49",
+        "dateTime": "2026-10-10T15:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "95472851-7fce-4f25-a97b-e3730b9053e4",
+        "dateTime": "2026-10-10T15:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "90522781-3ab8-4258-8f84-cc292663702d",
+        "dateTime": "2026-10-10T15:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "9134b489-158f-44d0-933f-ad9088f0f887",
+        "dateTime": "2026-10-10T11:00:00",
+        "stadium": "Lipowa 15 , 44-282 Łuków Śląski",
+        "state": "Nierozegrany",
+        "queue": 10,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "50e978d5-aa03-42fe-bd48-2839f0e027e4",
+        "dateTime": "2026-10-04T15:00:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "214b9264-df6b-4cf5-b678-042c50222f7f",
+        "dateTime": "2026-10-04T15:00:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "b9193821-d037-4e1f-8409-572cb871dadf",
+        "dateTime": "2026-10-04T15:00:00",
+        "stadium": "LKS Silesia Lubomia (Lubomia, Jana Nepomucena 20)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "c34b4e1b-658a-49f8-89f4-195b6b06fc60",
+        "dateTime": "2026-10-03T15:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "e4ca7e71-a446-4f4c-b4fc-158c3b0f8d6a",
+        "dateTime": "2026-10-03T15:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "77521b9a-fabf-4c05-b6bc-d4ad8f12ba3f",
+        "dateTime": "2026-10-03T15:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "b6186813-d42f-4d53-b3e1-fdc78002fed8",
+        "dateTime": "2026-10-03T15:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "a97a5e4b-cd4f-4657-ba62-8e95350a77b1",
+        "dateTime": "2026-10-03T15:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Nierozegrany",
+        "queue": 9,
+        "canDateTimeChange": true,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {},
+        "transmissions": []
+    },
+    {
+        "matchId": "2ea00984-6abf-4f9b-aca1-ed39876ca399",
+        "dateTime": "2026-09-27T17:00:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:3",
+            "half": "0:2",
+            "fullTime": "1:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "aca481d5-d409-4bf8-9613-946ba2d3b6b8",
+        "dateTime": "2026-09-27T15:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "3:1",
+            "half": "1:1",
+            "fullTime": "3:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "894d63f9-92df-437c-8dbf-4d7a18143329",
+        "dateTime": "2026-09-26T16:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:0",
+            "half": "0:0",
+            "fullTime": "0:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "bbc9a3e4-0d1c-4548-b292-cd8e483f77b0",
+        "dateTime": "2026-09-26T16:00:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "7:2",
+            "half": "5:1",
+            "fullTime": "7:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "7b648de5-f99f-4fb1-a165-8a00caf62bb6",
+        "dateTime": "2026-09-26T16:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:6",
+            "half": "0:2",
+            "fullTime": "0:6"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "219a8038-4bdc-44d4-8efa-80fc572b15ed",
+        "dateTime": "2026-09-26T16:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:2",
+            "half": "4:1",
+            "fullTime": "5:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "69aad0eb-a132-42a2-8bf7-aa9e7f8379ee",
+        "dateTime": "2026-09-26T16:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:0",
+            "half": "3:0",
+            "fullTime": "5:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "dc7657a5-f19e-4ec1-8dfd-56e1888b84e4",
+        "dateTime": "2026-09-26T11:00:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Rozegrany",
+        "queue": 8,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "3:4",
+            "half": "1:2",
+            "fullTime": "3:4"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "f6baa888-c80e-4c00-9a03-fba3ff8e3c02",
+        "dateTime": "2026-09-20T15:00:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:0",
+            "half": "0:0",
+            "fullTime": "1:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "780bd0af-e9ab-4682-96aa-39de9432a660",
+        "dateTime": "2026-09-20T15:00:00",
+        "stadium": "Jana Kochanowskiego 25 , 44-360 Nieboczowy",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:6",
+            "half": "2:5",
+            "fullTime": "2:6"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "497a6033-4a18-4ea1-8a58-5f59ef161219",
+        "dateTime": "2026-09-20T14:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:3",
+            "half": "0:1",
+            "fullTime": "2:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "e37a82fd-828c-41a8-81f1-dd1344905b7f",
+        "dateTime": "2026-09-20T14:00:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:3",
+            "half": "1:3",
+            "fullTime": "4:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "aee7479b-5dae-4538-90e3-4769d9700242",
+        "dateTime": "2026-09-20T13:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:0",
+            "half": "1:0",
+            "fullTime": "1:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "b23e3325-5ac6-4f3c-b766-04fb26767737",
+        "dateTime": "2026-09-19T16:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "3:0",
+            "half": "2:0",
+            "fullTime": "3:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "5f8ae557-888e-4a97-988c-7b7d0bb314a1",
+        "dateTime": "2026-09-19T16:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:6",
+            "half": "0:2",
+            "fullTime": "0:6"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "d38ae9f0-25ec-4a99-b802-194fb3c15107",
+        "dateTime": "2026-09-19T16:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Rozegrany",
+        "queue": 7,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:7",
+            "half": "2:5",
+            "fullTime": "2:7"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "a06bacc5-406b-41f6-9c5e-d983e6680e9c",
+        "dateTime": "2026-09-13T16:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "3:4",
+            "half": "1:3",
+            "fullTime": "3:4"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "5e387748-00df-4c1f-8122-996ad31a3d53",
+        "dateTime": "2026-09-12T16:00:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:1",
+            "half": "1:0",
+            "fullTime": "2:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "815408d8-abd8-4f18-b052-4f5b3d893dd4",
+        "dateTime": "2026-09-12T16:00:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:3",
+            "half": "0:3",
+            "fullTime": "0:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "9e86be3d-df4d-4827-9a57-51f5a3b9d45a",
+        "dateTime": "2026-09-12T16:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:1",
+            "half": "2:0",
+            "fullTime": "4:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "e7a4a15f-ec90-40bd-96c2-271ebf82766c",
+        "dateTime": "2026-09-12T16:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:3",
+            "half": "0:2",
+            "fullTime": "0:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "8c37ca3d-d3d0-4912-a3db-a5cc9ff5f245",
+        "dateTime": "2026-09-12T16:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:0",
+            "half": "1:0",
+            "fullTime": "1:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "60de22d7-439f-4459-be2e-a868be853cf9",
+        "dateTime": "2026-09-12T15:00:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:2",
+            "half": "1:1",
+            "fullTime": "1:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "5566960c-197d-41eb-aedd-4da11899e8a4",
+        "dateTime": "2026-09-12T13:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Rozegrany",
+        "queue": 6,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:1",
+            "half": "0:0",
+            "fullTime": "1:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "ceb271ea-ab4d-4ec7-a49f-cd262b30d753",
+        "dateTime": "2026-09-06T15:00:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:0",
+            "half": "2:0",
+            "fullTime": "5:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "e8e47f93-b7eb-4513-8da2-e2566060734d",
+        "dateTime": "2026-09-05T17:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "6:0",
+            "half": "2:0",
+            "fullTime": "6:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "87a1870b-b5da-4f3a-8416-cf4259e7960c",
+        "dateTime": "2026-09-05T16:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:1",
+            "half": "2:0",
+            "fullTime": "5:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "b384d72a-fe62-406d-b28f-cf53193c9f62",
+        "dateTime": "2026-09-05T16:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:2",
+            "half": "0:1",
+            "fullTime": "2:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "f421d625-2f40-43f3-8bcc-f74144f46cb9",
+        "dateTime": "2026-09-05T16:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:0",
+            "half": "0:0",
+            "fullTime": "4:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "bc921faa-2e0a-4306-b028-e448ea8401f7",
+        "dateTime": "2026-09-05T16:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:0",
+            "half": "2:0",
+            "fullTime": "4:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "52b2772f-79a9-495b-b45c-69a2d57782c0",
+        "dateTime": "2026-09-05T15:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:1",
+            "half": "1:1",
+            "fullTime": "1:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "d08cb34f-19e7-45ee-bd75-a96b44379f2d",
+        "dateTime": "2026-09-05T13:00:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Rozegrany",
+        "queue": 5,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:12",
+            "half": "0:4",
+            "fullTime": "0:12"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "0362de51-d970-4f77-b670-f8a1afe48076",
+        "dateTime": "2026-08-30T17:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:6",
+            "half": "0:3",
+            "fullTime": "0:6"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "c94055f3-73f0-4d35-a944-51bd167f639e",
+        "dateTime": "2026-08-30T15:30:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:0",
+            "half": "0:0",
+            "fullTime": "1:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "81b3ffbf-349e-4802-b0c9-a561fb42e96d",
+        "dateTime": "2026-08-30T15:00:00",
+        "stadium": "Jana Kochanowskiego 25 , 44-360 Nieboczowy",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:5",
+            "half": "3:2",
+            "fullTime": "4:5"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "effd6bd4-dcf8-4ff7-bc94-32474cefd79d",
+        "dateTime": "2026-08-29T17:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:3",
+            "half": "0:1",
+            "fullTime": "1:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "0ea89358-c5c9-4a4b-b99f-07235ef0282e",
+        "dateTime": "2026-08-29T15:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:0",
+            "half": "3:0",
+            "fullTime": "4:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "4f62b655-3267-4c6e-8874-619d2de99aef",
+        "dateTime": "2026-08-29T15:00:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:4",
+            "half": "2:2",
+            "fullTime": "2:4"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "c1fe30b4-06d7-4246-ae1a-d6ec963d6226",
+        "dateTime": "2026-08-29T15:00:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:4",
+            "half": "0:1",
+            "fullTime": "0:4"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "eda30b19-c400-47a0-90af-da08677747f4",
+        "dateTime": "2026-08-29T11:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Rozegrany",
+        "queue": 4,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:1",
+            "half": "0:0",
+            "fullTime": "1:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "e0f9ae22-63d0-44b9-aa6b-1c2097c81e2f",
+        "dateTime": "2026-08-23T17:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:2",
+            "half": "0:0",
+            "fullTime": "0:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "6bcd4252-92ba-479b-8c50-d2a9d5675b7b",
+        "dateTime": "2026-08-22T19:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:0",
+            "half": "2:0",
+            "fullTime": "4:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "34c8f393-4430-48f4-a41f-7b51b9b977a7",
+        "dateTime": "2026-08-22T17:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:2",
+            "half": "1:1",
+            "fullTime": "1:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "e595f1a0-6d43-4847-8e4f-66f3dbebed85",
+        "dateTime": "2026-08-22T17:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:1",
+            "half": "2:1",
+            "fullTime": "4:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "0c6e437d-1478-4d41-8490-8d0bc22fa84c",
+        "dateTime": "2026-08-22T17:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:0",
+            "half": "3:0",
+            "fullTime": "4:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "664b070a-8c33-4612-9a50-fe9ab0219dfb",
+        "dateTime": "2026-08-22T17:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:7",
+            "half": "0:2",
+            "fullTime": "1:7"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "a0b74530-ea35-4a65-b44a-124a492adeea",
+        "dateTime": "2026-08-22T17:00:00",
+        "stadium": "Borutan Arena (Borucin, Cegielniana 16)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:1",
+            "half": "1:0",
+            "fullTime": "1:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "bd458f5b-45ba-4d2a-8007-df7e02edc546",
+        "dateTime": "2026-08-22T15:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Rozegrany",
+        "queue": 3,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "3:2",
+            "half": "2:1",
+            "fullTime": "3:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "25a72a0c-ef67-4a8e-97a5-06d9818cee7d",
+        "dateTime": "2026-08-16T17:00:00",
+        "stadium": "KS 1905 Krzanowice (Krzanowice, Cegielniana 3)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:2",
+            "half": "0:1",
+            "fullTime": "0:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "88b379d3-7261-4041-9199-41de7e3ef91a",
+        "dateTime": "2026-08-16T15:00:00",
+        "stadium": "Boisko w Chwałęcicach (Rybnik, Karłowa 0)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:1",
+            "half": "2:1",
+            "fullTime": "4:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "ec37fe0b-f9d1-422e-97df-259e7ac97b65",
+        "dateTime": "2026-08-16T15:00:00",
+        "stadium": "Stadion LKS Unia Turza (Turza Śląska, Bogumińska 17)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:0",
+            "half": "4:0",
+            "fullTime": "5:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "dde2b45c-2ffd-4a05-8b91-0c569d31f963",
+        "dateTime": "2026-08-15T17:00:00",
+        "stadium": "Stadion KS Kolejarz Chałupki (Chałupki, Powstańców Śląskich 26)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:6",
+            "half": "0:3",
+            "fullTime": "1:6"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "18639fda-ed68-47be-a281-d6f73b5e6f73",
+        "dateTime": "2026-08-15T15:00:00",
+        "stadium": "Stadion im. dr Czesława Burka w Nieboczowach (Nieboczowy, Jana Kochanowskiego 25)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:6",
+            "half": "0:1",
+            "fullTime": "0:6"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "c6e964af-08fb-4829-b777-dc8207f7b544",
+        "dateTime": "2026-08-15T15:00:00",
+        "stadium": "Stadion MOSiR w Żorach (Żory, Wolności 36a)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:1",
+            "half": "2:1",
+            "fullTime": "5:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "65d11835-c4e2-4adf-8982-d080edf7437c",
+        "dateTime": "2026-08-15T15:00:00",
+        "stadium": "Obiekt sportowy im. Stanisława Mikosa w Czyżowicach (Czyżowice, Rogowska 4a)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:0",
+            "half": "0:0",
+            "fullTime": "0:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "36154711-2b27-4c0a-bba6-6ea9cc776d5f",
+        "dateTime": "2026-08-15T11:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Rozegrany",
+        "queue": 2,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "1:3",
+            "half": "0:2",
+            "fullTime": "1:3"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "d7ec4fd9-b494-4e51-9e83-5c0b9637a724",
+        "dateTime": "2026-08-09T15:00:00",
+        "stadium": "LKS Krzyżanowice (Krzyżanowice, Dworcowa 12a)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b1f48f69-b8d2-4f26-9de7-f70a68436fa5",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/4/614f869494a3b9d06f42747e__w64",
+            "name": "LKS KRZYŻANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "4583616f-7876-4890-b2bc-f4c0394cef86",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/0/2/6315f09592382fb95583a20a__w64",
+            "name": "KS NAPRZÓD BORUCIN",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "6:1",
+            "half": "1:0",
+            "fullTime": "6:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "5383dd80-6749-4345-ad84-0aef3f9fe4fe",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "Stadion Gminnego Klubu Sportowego Dąb Gaszowice (Piece, Sportowa)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "9bda716e-9c0d-4aaa-a50f-7fdf98554fbe",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/d/5/635302647bb6c3e5e07fe5d8__w64",
+            "name": "GKS DĄB GASZOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c430f401-b01e-4aad-a8e6-c72cfab70c3f",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/9/f/678a4e1fa893e47ddc085f9a__w64",
+            "name": "TKKF SOKÓŁ CHWAŁĘCICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:4",
+            "half": "0:3",
+            "fullTime": "2:4"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "7401c1f5-e1bb-4a9d-a15a-2d33b186638a",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "stadion 1908 nędza (Nędza, Sportowa 10)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "40df4df6-5c1b-433a-9e95-b8044ececc58",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/6/d/630d965492382fb955839d61__w64",
+            "name": "LKS 1908  NĘDZA",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "fc2e6dfa-13ba-4e81-9d74-c9faeee73192",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/d/8/66cb8396a893e47ddc0798d2__w64",
+            "name": "KS 1905 KRZANOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "3:1",
+            "half": "2:1",
+            "fullTime": "3:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "1f01ddf6-ecac-4cb7-910b-1707f377b591",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "Stadion Unii Racibórz (Racibórz, Srebrna 12)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b59e897c-b185-4e7f-82b2-c5a02bc60986",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/f/a/67d49131a893e47ddc087af4__w64",
+            "name": "MKS UNIA RACIBÓRZ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "570eb4d5-e784-45f5-9365-c3b5e5686870",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/a/a/630b5a7092382fb955839aab__w64",
+            "name": "LKS NAPRZÓD CZYŻOWICE",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:1",
+            "half": "3:0",
+            "fullTime": "5:1"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "1ef46956-f4fb-43c0-8635-f4bb648642b6",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+            "name": "KS GÓRNIK RADLIN ",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "c31212ee-74a6-4064-b328-dbc5508d4069",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/5/c/630cd42d92382fb955839c5a__w64",
+            "name": "LKS KOLEJARZ CHAŁUPKI ",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "4:0",
+            "half": "1:0",
+            "fullTime": "4:0"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "171e93aa-9055-4ab2-9f08-752d37a98c44",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "Stadion w Rogowie (Rogów, Sportowa 1)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "5d9d0372-9b70-4bf6-bdad-1dbc50d2a3c4",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/7/a/677825fca893e47ddc085a7e__w64",
+            "name": "KS PRZYSZŁOŚĆ ROGÓW",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "415c4165-6563-4e80-b37f-c3c1535a3f80",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/5/d/668e43f0a893e47ddc075d5c__w64",
+            "name": "KS SPARTA ŻORY",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "2:5",
+            "half": "0:4",
+            "fullTime": "2:5"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "e40473b3-1fce-4cc7-9c6e-50c15dcddc40",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "LKS \"RUCH\" Stanowice (Stanowice, 1 Maja 3)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "f68d4ec8-19d3-40b6-81df-fbfd998ec5c6",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/2/1/6a4664dfa893e47ddc150122__w64",
+            "name": "LKS RUCH STANOWICE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "8ec57d10-3119-4600-a355-99aa476c399d",
+            "name": "LKS SILESIA LUBOMIA",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "5:2",
+            "half": "3:1",
+            "fullTime": "5:2"
+        },
+        "transmissions": []
+    },
+    {
+        "matchId": "aa791ab4-b4fe-49b1-bb14-bda5a0bdfed0",
+        "dateTime": "2026-08-08T17:00:00",
+        "stadium": "Stadion KS Czarni Gorzyce (Gorzyce, Bogumińska 1)",
+        "state": "Rozegrany",
+        "queue": 1,
+        "canDateTimeChange": false,
+        "host": {
+            "id": "7658fe6f-f0fa-441c-8ea3-9df65ded7f39",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/c/8/6702e255a893e47ddc0828c5__w64",
+            "name": "KS CZARNI GORZYCE",
+            "abbreviation": ""
+        },
+        "guest": {
+            "id": "9d4072d1-9289-4809-b1fe-ecdcb176336d",
+            "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/2/6/6/66b4f07ba893e47ddc077662__w64",
+            "name": "LKS UNIA TURZA ŚLĄSKA II",
+            "abbreviation": ""
+        },
+        "scores": {
+            "final": "0:0",
+            "half": "0:0",
+            "fullTime": "0:0"
+        },
+        "transmissions": []
+    }
+]
