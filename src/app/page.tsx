@@ -1,9 +1,6 @@
 import Link from "next/link";
 import { getGoogleMapsUrl } from "@/lib/maps";
-
-import zakiMatches from "@/data/zaki.json";
-import trampkarzeMatches from "@/data/trampkarze.json";
-import seniorzyMatches from "@/data/seniorzy.json";
+import { getTeamMatches } from "@/lib/laczynaspilka";
 
 import type { Match } from "@/lib/types";
 
@@ -15,30 +12,6 @@ type Team = {
   matches: Match[];
 };
 
-const teams: Team[] = [
-  {
-    name: "Żaki",
-    slug: "zaki",
-    description: "Terminarz drużyny Żaków",
-    source: "ŚLZPN",
-    matches: zakiMatches as Match[],
-  },
-  {
-    name: "Trampkarze",
-    slug: "trampkarze",
-    description: "Terminarz drużyny Trampkarzy",
-    source: "Łączy Nas Piłka",
-    matches: trampkarzeMatches as Match[],
-  },
-  {
-    name: "Seniorzy",
-    slug: "seniorzy",
-    description: "Terminarz drużyny Seniorów",
-    source: "Łączy Nas Piłka",
-    matches: seniorzyMatches as Match[],
-  },
-];
-
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("pl-PL", {
     weekday: "short",
@@ -47,7 +20,36 @@ function formatDate(date: string) {
   }).format(new Date(`${date}T12:00:00`));
 }
 
-export default function Home() {
+export default async function Home() {
+  const [zakiMatches, trampkarzeMatches, seniorzyMatches] = await Promise.all([
+    getTeamMatches("zaki"),
+    getTeamMatches("trampkarze"),
+    getTeamMatches("seniorzy"),
+  ]);
+
+  const teams: Team[] = [
+    {
+      name: "Żaki",
+      slug: "zaki",
+      description: "Terminarz drużyny Żaków",
+      source: "ŚLZPN",
+      matches: zakiMatches,
+    },
+    {
+      name: "Trampkarze",
+      slug: "trampkarze",
+      description: "Terminarz drużyny Trampkarzy",
+      source: "Łączy Nas Piłka",
+      matches: trampkarzeMatches,
+    },
+    {
+      name: "Seniorzy",
+      slug: "seniorzy",
+      description: "Terminarz drużyny Seniorów",
+      source: "Łączy Nas Piłka",
+      matches: seniorzyMatches,
+    },
+  ];
   const allUpcomingMatches = teams
     .flatMap((team) =>
       team.matches.map((match) => ({

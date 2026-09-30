@@ -1,10 +1,9 @@
 import Link from "next/link";
 import MatchList from "@/components/MatchList";
-import matchesData from "@/data/zaki.json";
-import type { Match } from "@/lib/types";
+import { getTeamMatches } from "@/lib/laczynaspilka";
 
-export default function ZakiPage() {
-  const matches = matchesData as Match[];
+export default async function ZakiPage() {
+  const matches = await getTeamMatches("zaki");
 
   return (
     <main className="min-h-screen bg-zinc-950 text-white">

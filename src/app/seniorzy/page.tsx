@@ -1,10 +1,9 @@
 import MatchList from "@/components/MatchList";
-import matchesData from "@/data/seniorzy.json";
-import type { Match } from "@/lib/types";
 import Link from "next/link";
+import { getTeamMatches } from "@/lib/laczynaspilka";
 
-export default function SeniorzyPage() {
-  const matches = matchesData as Match[];
+export default async function SeniorzyPage() {
+  const matches = await getTeamMatches("seniorzy");
 
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
