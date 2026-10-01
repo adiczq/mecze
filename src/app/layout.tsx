@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Górnik Radlin – Mecze",
   description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
   metadataBase: new URL("https://mecze.adiczq.dev"),
-
+  manifest: "/manifest.webmanifest",
   openGraph: {
     title: "Górnik Radlin – Mecze",
     description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
