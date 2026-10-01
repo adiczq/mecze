@@ -26,9 +26,10 @@ export default async function Home() {
     })
   );
 
-  const matchesByTeam = Object.fromEntries(
-    teamMatchesEntries
-  ) as Record<TeamKey, Match[]>;
+  const matchesByTeam = Object.fromEntries(teamMatchesEntries) as Record<
+    TeamKey,
+    Match[]
+  >;
 
   const teams: Team[] = teamKeys
     .map((key) => ({
@@ -56,7 +57,7 @@ export default async function Home() {
   return (
     <main className="page-shell">
       <section className="mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-10">
-        <section className="hero-panel overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
+        <section className="hero-panel fade-up overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-blue-200">
             Górnik Radlin
           </p>
@@ -74,24 +75,24 @@ export default async function Home() {
 
             {nextMatch && (
               <div className="min-w-[230px] rounded-2xl border border-white/15 bg-white/10 px-6 py-5 backdrop-blur">
-                <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-blue-200">
-                  Najbliższy mecz
-                </p>
+                <div className="flex items-center gap-2">
+                  <span className="live-dot" />
+
+                  <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-blue-200">
+                    Najbliższy mecz
+                  </p>
+                </div>
 
                 <p className="mt-2 text-sm font-semibold">
                   {formatDate(nextMatch.date)}
                   {nextMatch.time ? ` • ${nextMatch.time}` : ""}
                 </p>
 
-                <p className="mt-2 text-base font-bold">
-                  {nextMatch.homeTeam}
-                </p>
+                <p className="mt-2 text-base font-bold">{nextMatch.homeTeam}</p>
 
                 <p className="text-sm text-blue-200">vs</p>
 
-                <p className="text-base font-bold">
-                  {nextMatch.awayTeam}
-                </p>
+                <p className="text-base font-bold">{nextMatch.awayTeam}</p>
               </div>
             )}
           </div>
@@ -102,7 +103,7 @@ export default async function Home() {
             <Link
               key={team.slug}
               href={`/${team.slug}`}
-              className="team-tile group rounded-2xl border-t-2 border-t-transparent px-3 py-4 text-center transition hover:-translate-y-0.5 hover:border-blue-300 hover:border-t-blue-500 sm:px-5 sm:py-5"
+              className="team-tile group rounded-2xl border-t-2 border-t-transparent px-3 py-4 text-center hover:border-blue-300 hover:border-t-blue-500 sm:px-5 sm:py-5"
             >
               <p className="text-sm font-black text-slate-900 sm:text-lg">
                 {team.name}
@@ -137,7 +138,7 @@ export default async function Home() {
           </div>
 
           <div className="divide-y divide-slate-200">
-            {allUpcomingMatches.slice(0, 8).map((match) => {
+            {allUpcomingMatches.slice(0, 8).map((match, index) => {
               const isHome = match.homeTeam
                 .toUpperCase()
                 .includes("GÓRNIK RADLIN");
@@ -145,7 +146,10 @@ export default async function Home() {
               return (
                 <div
                   key={`${match.category}-${match.id}`}
-                  className="match-row grid gap-3 px-5 py-5 sm:grid-cols-[150px_1fr_auto] sm:items-center sm:gap-4 sm:px-8"
+                  className="match-row match-enter grid gap-3 px-5 py-5 sm:grid-cols-[150px_1fr_auto] sm:items-center sm:gap-4 sm:px-8"
+                  style={{
+                    animationDelay: `${index * 70}ms`,
+                  }}
                 >
                   <div>
                     <div className="flex items-center gap-2">

@@ -39,12 +39,7 @@ body {
 
 .page-shell {
   min-height: 100vh;
-  background:
-    linear-gradient(
-      180deg,
-      #eff6ff 0%,
-      var(--background) 280px
-    );
+  background: linear-gradient(180deg, #eff6ff 0%, var(--background) 280px);
 }
 
 .card {
@@ -83,7 +78,11 @@ body {
 
 .hero-panel {
   background:
-    radial-gradient(circle at top right, rgba(37, 99, 235, 0.2), transparent 32%),
+    radial-gradient(
+      circle at top right,
+      rgba(37, 99, 235, 0.2),
+      transparent 32%
+    ),
     linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #2563eb 100%);
   color: white;
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
@@ -104,4 +103,123 @@ body {
 .match-row:hover {
   background: #f8fafc;
   transform: translateY(-1px);
+}
+
+@keyframes hero-glow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.45;
+    transform: scale(1.35);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-panel {
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(59, 130, 246, 0.28),
+      transparent 34%
+    ),
+    linear-gradient(135deg, #0f172a 0%, #1e3a8a 45%, #2563eb 70%, #1e40af 100%);
+
+  background-size: 180% 180%;
+  animation: hero-glow 12s ease-in-out infinite;
+
+  color: white;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.16);
+}
+
+.live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 9999px;
+  background: #60a5fa;
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+.fade-up {
+  animation: fade-up 0.45s ease-out both;
+}
+
+.team-tile {
+  transform: translateY(0);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease;
+  will-change: transform;
+}
+
+.team-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+}
+
+.match-row {
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease,
+    padding-left 160ms ease;
+}
+
+.match-row:hover {
+  background: #f8fafc;
+  transform: translateY(-1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-panel,
+  .live-dot,
+  .fade-up,
+  .match-enter {
+    animation: none;
+  }
+
+  .team-tile,
+  .match-row {
+    transition: none;
+  }
+}
+
+@keyframes match-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.match-enter {
+  animation: match-enter 420ms ease-out both;
 }
