@@ -57,7 +57,7 @@ export default async function Home() {
   return (
     <main className="page-shell">
       <section className="mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-10">
-        <section className="hero-panel fade-up overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
+        <section className="hero-panel overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
           <p className="text-xs font-bold uppercase tracking-[0.3em] text-blue-200">
             Górnik Radlin
           </p>
@@ -103,7 +103,7 @@ export default async function Home() {
             <Link
               key={team.slug}
               href={`/${team.slug}`}
-              className="team-tile group rounded-2xl border-t-2 border-t-transparent px-3 py-4 text-center hover:border-blue-300 hover:border-t-blue-500 sm:px-5 sm:py-5"
+              className="team-tile group rounded-2xl px-3 py-4 text-center sm:px-5 sm:py-5"
             >
               <p className="text-sm font-black text-slate-900 sm:text-lg">
                 {team.name}
