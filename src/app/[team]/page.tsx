@@ -10,7 +10,6 @@ type TeamPageProps = {
 
 export default async function TeamPage({ params }: TeamPageProps) {
   const { team } = await params;
-
   if (!(team in teamConfig)) {
     notFound();
   }
