@@ -26,12 +26,19 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "/opengraph-image.jpg",
         width: 1200,
         height: 630,
         alt: "Górnik Radlin – Mecze",
       },
     ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Górnik Radlin – Mecze",
+    description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
+    images: ["/opengraph-image.jpg"],
   },
 };
 
@@ -45,9 +52,7 @@ export default function RootLayout({
       lang="pl"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col">
-        {children}
-      </body>
+      <body className="flex min-h-full flex-col">{children}</body>
     </html>
   );
 }
