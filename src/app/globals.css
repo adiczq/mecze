@@ -80,3 +80,28 @@ body {
   color: var(--brand-dark);
   border: 1px solid #bfdbfe;
 }
+
+.hero-panel {
+  background:
+    radial-gradient(circle at top right, rgba(37, 99, 235, 0.2), transparent 32%),
+    linear-gradient(135deg, #0f172a 0%, #1e3a8a 55%, #2563eb 100%);
+  color: white;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.18);
+}
+
+.team-tile {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(203, 213, 225, 0.9);
+  box-shadow: 0 8px 25px rgba(15, 23, 42, 0.05);
+}
+
+.match-row {
+  transition:
+    transform 160ms ease,
+    background-color 160ms ease;
+}
+
+.match-row:hover {
+  background: #f8fafc;
+  transform: translateY(-1px);
+}

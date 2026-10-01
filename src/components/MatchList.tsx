@@ -1,5 +1,6 @@
 import MatchCard from "@/components/MatchCard";
 import type { Match } from "@/lib/types";
+import StatusCard from "@/components/StatusCard";
 
 type MatchListProps = {
   matches: Match[];
@@ -29,9 +30,10 @@ export default function MatchList({
 }: MatchListProps) {
   if (matches.length === 0) {
     return (
-      <div className="card muted rounded-2xl p-6 text-center">
-        {emptyMessage}
-      </div>
+      <StatusCard
+        title="Brak zaplanowanych meczów"
+        description={emptyMessage}
+      />
     );
   }
 

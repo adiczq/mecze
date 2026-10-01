@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "import:zaki": "node scripts/import-matches.mjs zaki-raw.json src/data/zaki.json",
+    "import:trampkarze": "node scripts/import-matches.mjs trampkarze-raw.json src/data/trampkarze.json",
+    "import:seniorzy": "node scripts/import-matches.mjs seniorzy-raw.json src/data/seniorzy.json",
+    "import:all": "npm run import:zaki && npm run import:trampkarze && npm run import:seniorzy"
   },
   "dependencies": {
     "next": "16.3.6",
@@ -24,16 +28,5 @@
     "prettier": "^3.9.9",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "format": "prettier --write .",
-    "import:zaki": "node scripts/import-matches.mjs zaki-raw.json src/data/zaki.json",
-    "import:trampkarze": "node scripts/import-matches.mjs trampkarze-raw.json src/data/trampkarze.json",
-    "import:seniorzy": "node scripts/import-matches.mjs seniorzy-raw.json src/data/seniorzy.json",
-    "import:all": "npm run import:zaki && npm run import:trampkarze && npm run import:seniorzy"
   }
 }

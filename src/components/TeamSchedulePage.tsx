@@ -7,11 +7,22 @@ type TeamSchedulePageProps = {
   teamKey: TeamKey;
 };
 
+function formatLastUpdate(date: Date) {
+  return new Intl.DateTimeFormat("pl-PL", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+  }).format(date);
+}
+
 export default async function TeamSchedulePage({
   teamKey,
 }: TeamSchedulePageProps) {
   const matches = await getTeamMatches(teamKey);
   const team = teamConfig[teamKey];
+  const lastUpdate = new Date();
 
   return (
     <main className="page-shell">
@@ -28,14 +39,13 @@ export default async function TeamSchedulePage({
           Górnik Radlin
         </p>
 
-        <h1 className="mt-2 text-4xl font-black text-slate-900">
-          {team.name}
-        </h1>
+        <h1 className="mt-2 text-4xl font-black text-slate-900">{team.name}</h1>
 
-        <p className="muted mt-3">
-          Najbliższe mecze drużyny.
+        <p className="muted mt-3">Najbliższe mecze drużyny.</p>
+        <p className="mt-2 flex items-center gap-2 text-xs text-slate-400">
+          <span>↻</span>
+          <span>Ostatnia aktualizacja: {formatLastUpdate(lastUpdate)}</span>
         </p>
-
         <div className="mt-8">
           <MatchList matches={matches} />
         </div>

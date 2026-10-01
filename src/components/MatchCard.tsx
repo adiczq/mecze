@@ -14,10 +14,7 @@ function formatMatchDate(date: string) {
   }).format(new Date(`${date}T12:00:00`));
 }
 
-export default function MatchCard({
-  match,
-  featured = false,
-}: MatchCardProps) {
+export default function MatchCard({ match, featured = false }: MatchCardProps) {
   const isHome = match.homeTeam.toUpperCase().includes("GÓRNIK RADLIN");
 
   return (
@@ -51,9 +48,9 @@ export default function MatchCard({
         </span>
       </div>
 
-      <div className="my-6">
-        <div className="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
-          <div className="text-right">
+      <div className="my-5">
+        <div className="grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
+          <div className="text-center sm:text-right">
             <p
               className={`font-bold ${
                 isHome ? "text-blue-600" : "text-slate-900"
@@ -63,11 +60,11 @@ export default function MatchCard({
             </p>
           </div>
 
-          <div className="rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-xs font-black text-slate-400">
+          <div className="mx-auto rounded-full border border-slate-200 bg-slate-50 px-3 py-2 text-xs font-black text-slate-400">
             VS
           </div>
 
-          <div>
+          <div className="text-center sm:text-left">
             <p
               className={`font-bold ${
                 !isHome ? "text-blue-600" : "text-slate-900"
@@ -80,7 +77,7 @@ export default function MatchCard({
       </div>
 
       {match.venue && (
-        <div className="border-t border-slate-200 pt-4">
+        <div className="border-t border-slate-200 pt-4 pb-1">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <a
               href={getGoogleMapsUrl(match.venue)}
@@ -96,7 +93,7 @@ export default function MatchCard({
               href={getGoogleMapsUrl(match.venue)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex w-fit items-center rounded-xl bg-blue-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-blue-700"
+              className="inline-flex w-fit items-center rounded-xl bg-blue-600 px-3.5 py-2 text-sm font-bold text-white transition hover:bg-blue-700 sm:px-4"
             >
               Nawiguj
             </a>

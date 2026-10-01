@@ -22,7 +22,6 @@ export default async function Home() {
   const teamMatchesEntries = await Promise.all(
     teamKeys.map(async (key) => {
       const matches = await getTeamMatches(key);
-
       return [key, matches] as const;
     })
   );
@@ -52,136 +51,93 @@ export default async function Home() {
         new Date(`${b.date}T${b.time ?? "00:00"}`).getTime()
     );
 
+  const nextMatch = allUpcomingMatches[0];
+
   return (
     <main className="page-shell">
-      <section className="mx-auto max-w-6xl px-5 py-10 sm:px-8">
-        <header className="mb-10">
-          <p className="brand mb-2 text-sm font-semibold uppercase tracking-[0.3em]">
+      <section className="mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-10">
+        <section className="hero-panel overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
+          <p className="text-xs font-bold uppercase tracking-[0.3em] text-blue-200">
             Górnik Radlin
           </p>
 
-          <h1 className="text-4xl font-black tracking-tight sm:text-6xl">
-            Mecze
-          </h1>
+          <div className="mt-3 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <div>
+              <h1 className="text-4xl font-black tracking-tight sm:text-6xl">
+                Mecze
+              </h1>
 
-          <p className="muted mt-3 max-w-2xl text-base sm:text-lg">
-            Terminarz drużyn Górnika Radlin.
-          </p>
-        </header>
+              <p className="mt-3 max-w-xl text-sm text-blue-100 sm:text-base">
+                Terminarz wszystkich drużyn Górnika Radlin w jednym miejscu.
+              </p>
+            </div>
 
-        <section className="mb-8 grid grid-cols-3 gap-2 md:hidden">
+            {nextMatch && (
+              <div className="min-w-[230px] rounded-2xl border border-white/15 bg-white/10 px-6 py-5 backdrop-blur">
+                <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-blue-200">
+                  Najbliższy mecz
+                </p>
+
+                <p className="mt-2 text-sm font-semibold">
+                  {formatDate(nextMatch.date)}
+                  {nextMatch.time ? ` • ${nextMatch.time}` : ""}
+                </p>
+
+                <p className="mt-2 text-base font-bold">
+                  {nextMatch.homeTeam}
+                </p>
+
+                <p className="text-sm text-blue-200">vs</p>
+
+                <p className="text-base font-bold">
+                  {nextMatch.awayTeam}
+                </p>
+              </div>
+            )}
+          </div>
+        </section>
+
+        <section className="mt-6 grid grid-cols-3 gap-2 sm:gap-4">
           {teams.map((team) => (
             <Link
               key={team.slug}
               href={`/${team.slug}`}
-              className="card flex min-h-20 flex-col items-center justify-center rounded-2xl px-2 text-center transition active:scale-95"
+              className="team-tile group rounded-2xl border-t-2 border-t-transparent px-3 py-4 text-center transition hover:-translate-y-0.5 hover:border-blue-300 hover:border-t-blue-500 sm:px-5 sm:py-5"
             >
-              <span className="text-sm font-bold text-slate-900">
+              <p className="text-sm font-black text-slate-900 sm:text-lg">
                 {team.name}
-              </span>
+              </p>
 
-              <span className="soft-text mt-1 text-[10px] uppercase tracking-wide">
+              <p className="mt-1 text-[10px] uppercase tracking-[0.16em] text-slate-400 sm:text-xs">
                 Terminarz
-              </span>
+              </p>
+
+              <p className="mt-2 hidden text-xs text-slate-500 sm:block">
+                {team.description}
+              </p>
             </Link>
           ))}
         </section>
 
-        <section className="hidden gap-5 md:grid md:grid-cols-3">
-          {teams.map((team) => {
-            const nextMatch = team.matches[0];
-            const isHome = nextMatch
-              ? nextMatch.homeTeam.toUpperCase().includes("GÓRNIK RADLIN")
-              : false;
+        <section className="card mt-8 overflow-hidden rounded-3xl">
+          <div className="flex items-end justify-between gap-3 px-5 pb-4 pt-6 sm:px-8 sm:pt-8">
+            <div>
+              <p className="brand text-xs font-bold uppercase tracking-[0.24em]">
+                Match center
+              </p>
 
-            return (
-              <Link
-                key={team.slug}
-                href={`/${team.slug}`}
-                className="card group rounded-3xl p-6 transition hover:-translate-y-1 hover:border-blue-300"
-              >
-                <div className="mb-8 flex items-center justify-between">
-                  <span className="rounded-full bg-blue-600 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
-                    {team.source}
-                  </span>
+              <h2 className="mt-1 text-xl font-black leading-tight text-slate-900 sm:text-2xl">
+                Najbliższe spotkania
+              </h2>
+            </div>
 
-                  <span className="text-2xl text-slate-400 transition group-hover:translate-x-1 group-hover:text-blue-600">
-                    →
-                  </span>
-                </div>
+            <span className="shrink-0 text-[11px] font-semibold text-slate-500 sm:text-xs">
+              {allUpcomingMatches.length} meczów
+            </span>
+          </div>
 
-                <h2 className="text-2xl font-bold text-slate-900">
-                  {team.name}
-                </h2>
-
-                <p className="muted mt-3 text-sm leading-6">
-                  {team.description}
-                </p>
-
-                <div className="mt-8 border-t border-slate-200 pt-5">
-                  <p className="soft-text text-xs uppercase tracking-widest">
-                    Najbliższy mecz
-                  </p>
-
-                  {nextMatch ? (
-                    <>
-                      <div className="mt-3 flex items-center justify-between gap-3">
-                        <p className="brand text-sm font-semibold">
-                          {formatDate(nextMatch.date)}
-                          {nextMatch.time ? ` • ${nextMatch.time}` : ""}
-                        </p>
-
-                        <span
-                          className={`rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wide ${
-                            isHome ? "badge-home" : "badge-away"
-                          }`}
-                        >
-                          {isHome ? "HOME" : "AWAY"}
-                        </span>
-                      </div>
-
-                      <div className="mt-3 space-y-1">
-                        <p
-                          className={`font-semibold ${
-                            isHome ? "text-blue-600" : "text-slate-900"
-                          }`}
-                        >
-                          {nextMatch.homeTeam}
-                        </p>
-
-                        <p className="soft-text text-sm">vs</p>
-
-                        <p
-                          className={`font-semibold ${
-                            !isHome ? "text-blue-600" : "text-slate-900"
-                          }`}
-                        >
-                          {nextMatch.awayTeam}
-                        </p>
-                      </div>
-                    </>
-                  ) : (
-                    <p className="muted mt-2 font-semibold">
-                      Brak zaplanowanych meczów
-                    </p>
-                  )}
-                </div>
-              </Link>
-            );
-          })}
-        </section>
-
-        <section className="card mt-12 rounded-3xl p-6 sm:p-8">
-          <p className="brand text-sm font-semibold uppercase tracking-[0.25em]">
-            Najbliższe mecze
-          </p>
-
-          <h2 className="mt-2 text-2xl font-bold text-slate-900">
-            Najbliższe spotkania Górnika
-          </h2>
-
-          <div className="mt-6 divide-y divide-slate-200">
-            {allUpcomingMatches.slice(0, 6).map((match) => {
+          <div className="divide-y divide-slate-200">
+            {allUpcomingMatches.slice(0, 8).map((match) => {
               const isHome = match.homeTeam
                 .toUpperCase()
                 .includes("GÓRNIK RADLIN");
@@ -189,16 +145,16 @@ export default async function Home() {
               return (
                 <div
                   key={`${match.category}-${match.id}`}
-                  className="flex flex-col gap-3 py-5 sm:flex-row sm:items-center sm:justify-between"
+                  className="match-row grid gap-3 px-5 py-5 sm:grid-cols-[150px_1fr_auto] sm:items-center sm:gap-4 sm:px-8"
                 >
                   <div>
-                    <div className="flex items-center gap-3">
-                      <p className="brand text-xs font-bold uppercase tracking-wider">
+                    <div className="flex items-center gap-2">
+                      <span className="brand text-xs font-bold uppercase tracking-wider">
                         {match.category}
-                      </p>
+                      </span>
 
                       <span
-                        className={`rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide ${
+                        className={`rounded-full px-2.5 py-1 text-[9px] font-black uppercase tracking-wide ${
                           isHome ? "badge-home" : "badge-away"
                         }`}
                       >
@@ -206,43 +162,39 @@ export default async function Home() {
                       </span>
                     </div>
 
-                    <p className="muted mt-2 text-sm">
+                    <p className="muted mt-1 text-sm">
                       {formatDate(match.date)}
                       {match.time ? ` • ${match.time}` : ""}
                     </p>
                   </div>
 
-                  <div className="sm:text-right">
-                    <p className="font-semibold">
-                      <span
-                        className={isHome ? "text-blue-600" : "text-slate-900"}
-                      >
-                        {match.homeTeam}
-                      </span>
+                  <div className="text-sm font-semibold leading-6 sm:text-base">
+                    <span
+                      className={isHome ? "text-blue-600" : "text-slate-900"}
+                    >
+                      {match.homeTeam}
+                    </span>
 
-                      <span className="mx-2 text-slate-300">–</span>
+                    <span className="mx-2 text-slate-300">–</span>
 
-                      <span
-                        className={!isHome ? "text-blue-600" : "text-slate-900"}
-                      >
-                        {match.awayTeam}
-                      </span>
-                    </p>
-
-                    {match.venue && (
-                      <a
-                        href={getGoogleMapsUrl(match.venue)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="muted mt-1 inline-flex items-start gap-1 text-sm transition hover:text-blue-600"
-                      >
-                        <span>📍</span>
-                        <span className="underline decoration-slate-300 underline-offset-4">
-                          {match.venue}
-                        </span>
-                      </a>
-                    )}
+                    <span
+                      className={!isHome ? "text-blue-600" : "text-slate-900"}
+                    >
+                      {match.awayTeam}
+                    </span>
                   </div>
+
+                  {match.venue && (
+                    <a
+                      href={getGoogleMapsUrl(match.venue)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="muted inline-flex w-full items-start gap-1 text-xs transition hover:text-blue-600 sm:w-auto sm:max-w-64 sm:justify-self-end sm:text-right sm:text-sm"
+                    >
+                      <span>📍</span>
+                      <span>{match.venue}</span>
+                    </a>
+                  )}
                 </div>
               );
             })}
