@@ -201,13 +201,32 @@ body {
   transform: translateY(-1px);
 }
 
+/* FEATURED MATCH */
+
+@keyframes featured-glow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.featured-match {
+  background-size: 220% 220%;
+  animation: featured-glow 9s ease-in-out infinite;
+}
+
 /* ACCESSIBILITY */
 
 @media (prefers-reduced-motion: reduce) {
   .hero-panel,
   .live-dot,
   .fade-up,
-  .match-enter {
+  .match-enter,
+  .featured-match {
     animation: none;
   }
 
