@@ -1,16 +1,14 @@
 import Link from "next/link";
 import { getGoogleMapsUrl } from "@/lib/maps";
 import { getTeamMatches } from "@/lib/laczynaspilka";
+import { teamConfig, teamKeys, type TeamKey } from "@/lib/teams";
 
 import type { Match } from "@/lib/types";
 
 type Team = {
-  name: string;
-  slug: string;
-  description: string;
-  source: string;
+  key: TeamKey;
   matches: Match[];
-};
+} & (typeof teamConfig)[TeamKey];
 
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("pl-PL", {
@@ -21,35 +19,25 @@ function formatDate(date: string) {
 }
 
 export default async function Home() {
-  const [zakiMatches, trampkarzeMatches, seniorzyMatches] = await Promise.all([
-    getTeamMatches("zaki"),
-    getTeamMatches("trampkarze"),
-    getTeamMatches("seniorzy"),
-  ]);
+  const teamMatchesEntries = await Promise.all(
+    teamKeys.map(async (key) => {
+      const matches = await getTeamMatches(key);
 
-  const teams: Team[] = [
-    {
-      name: "Żaki",
-      slug: "zaki",
-      description: "Terminarz drużyny Żaków",
-      source: "ŚLZPN",
-      matches: zakiMatches,
-    },
-    {
-      name: "Trampkarze",
-      slug: "trampkarze",
-      description: "Terminarz drużyny Trampkarzy",
-      source: "Łączy Nas Piłka",
-      matches: trampkarzeMatches,
-    },
-    {
-      name: "Seniorzy",
-      slug: "seniorzy",
-      description: "Terminarz drużyny Seniorów",
-      source: "Łączy Nas Piłka",
-      matches: seniorzyMatches,
-    },
-  ];
+      return [key, matches] as const;
+    })
+  );
+
+  const matchesByTeam = Object.fromEntries(
+    teamMatchesEntries
+  ) as Record<TeamKey, Match[]>;
+
+  const teams: Team[] = teamKeys
+    .map((key) => ({
+      key,
+      ...teamConfig[key],
+      matches: matchesByTeam[key],
+    }))
+    .sort((a, b) => a.order - b.order);
 
   const allUpcomingMatches = teams
     .flatMap((team) =>
