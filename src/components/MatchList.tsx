@@ -29,7 +29,7 @@ export default function MatchList({
 }: MatchListProps) {
   if (matches.length === 0) {
     return (
-      <div className="rounded-2xl border border-zinc-800 bg-zinc-900 p-6 text-center text-zinc-400">
+      <div className="card muted rounded-2xl p-6 text-center">
         {emptyMessage}
       </div>
     );
@@ -40,7 +40,7 @@ export default function MatchList({
   return (
     <div>
       <section>
-        <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] text-blue-400">
+        <p className="brand mb-3 text-xs font-bold uppercase tracking-[0.25em]">
           Najbliższy mecz
         </p>
 
@@ -51,14 +51,16 @@ export default function MatchList({
         <section className="mt-10">
           <div className="mb-4 flex items-end justify-between gap-4">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.25em] text-blue-400">
+              <p className="brand text-xs font-bold uppercase tracking-[0.25em]">
                 Terminarz
               </p>
 
-              <h2 className="mt-1 text-2xl font-bold">Kolejne mecze</h2>
+              <h2 className="mt-1 text-2xl font-bold text-slate-900">
+                Kolejne mecze
+              </h2>
             </div>
 
-            <span className="text-sm text-zinc-500">
+            <span className="muted text-sm">
               {upcomingMatches.length}{" "}
               {getMatchCountLabel(upcomingMatches.length)}
             </span>

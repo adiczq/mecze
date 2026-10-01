@@ -50,6 +50,7 @@ export default async function Home() {
       matches: seniorzyMatches,
     },
   ];
+
   const allUpcomingMatches = teams
     .flatMap((team) =>
       team.matches.map((match) => ({
@@ -64,10 +65,10 @@ export default async function Home() {
     );
 
   return (
-    <main className="min-h-screen bg-zinc-950 text-white">
+    <main className="page-shell">
       <section className="mx-auto max-w-6xl px-5 py-10 sm:px-8">
         <header className="mb-10">
-          <p className="mb-2 text-sm font-semibold uppercase tracking-[0.3em] text-blue-400">
+          <p className="brand mb-2 text-sm font-semibold uppercase tracking-[0.3em]">
             Górnik Radlin
           </p>
 
@@ -75,7 +76,7 @@ export default async function Home() {
             Mecze
           </h1>
 
-          <p className="mt-3 max-w-2xl text-base text-zinc-400 sm:text-lg">
+          <p className="muted mt-3 max-w-2xl text-base sm:text-lg">
             Terminarz drużyn Górnika Radlin.
           </p>
         </header>
@@ -85,11 +86,13 @@ export default async function Home() {
             <Link
               key={team.slug}
               href={`/${team.slug}`}
-              className="flex min-h-20 flex-col items-center justify-center rounded-2xl border border-zinc-800 bg-zinc-900 px-2 text-center transition active:scale-95 active:border-blue-500"
+              className="card flex min-h-20 flex-col items-center justify-center rounded-2xl px-2 text-center transition active:scale-95"
             >
-              <span className="text-sm font-bold text-white">{team.name}</span>
+              <span className="text-sm font-bold text-slate-900">
+                {team.name}
+              </span>
 
-              <span className="mt-1 text-[10px] uppercase tracking-wide text-zinc-500">
+              <span className="soft-text mt-1 text-[10px] uppercase tracking-wide">
                 Terminarz
               </span>
             </Link>
@@ -102,46 +105,47 @@ export default async function Home() {
             const isHome = nextMatch
               ? nextMatch.homeTeam.toUpperCase().includes("GÓRNIK RADLIN")
               : false;
+
             return (
               <Link
                 key={team.slug}
                 href={`/${team.slug}`}
-                className="group rounded-3xl border border-zinc-800 bg-zinc-900 p-6 transition hover:-translate-y-1 hover:border-blue-400"
+                className="card group rounded-3xl p-6 transition hover:-translate-y-1 hover:border-blue-300"
               >
                 <div className="mb-8 flex items-center justify-between">
                   <span className="rounded-full bg-blue-600 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white">
                     {team.source}
                   </span>
 
-                  <span className="text-2xl transition group-hover:translate-x-1">
+                  <span className="text-2xl text-slate-400 transition group-hover:translate-x-1 group-hover:text-blue-600">
                     →
                   </span>
                 </div>
 
-                <h2 className="text-2xl font-bold">{team.name}</h2>
+                <h2 className="text-2xl font-bold text-slate-900">
+                  {team.name}
+                </h2>
 
-                <p className="mt-3 text-sm leading-6 text-zinc-400">
+                <p className="muted mt-3 text-sm leading-6">
                   {team.description}
                 </p>
 
-                <div className="mt-8 border-t border-zinc-800 pt-5">
-                  <p className="text-xs uppercase tracking-widest text-zinc-500">
+                <div className="mt-8 border-t border-slate-200 pt-5">
+                  <p className="soft-text text-xs uppercase tracking-widest">
                     Najbliższy mecz
                   </p>
 
                   {nextMatch ? (
                     <>
                       <div className="mt-3 flex items-center justify-between gap-3">
-                        <p className="text-sm font-semibold text-blue-400">
+                        <p className="brand text-sm font-semibold">
                           {formatDate(nextMatch.date)}
                           {nextMatch.time ? ` • ${nextMatch.time}` : ""}
                         </p>
 
                         <span
                           className={`rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-wide ${
-                            isHome
-                              ? "bg-blue-600 text-white"
-                              : "border border-blue-500/40 bg-blue-950/40 text-blue-300"
+                            isHome ? "badge-home" : "badge-away"
                           }`}
                         >
                           {isHome ? "HOME" : "AWAY"}
@@ -151,17 +155,17 @@ export default async function Home() {
                       <div className="mt-3 space-y-1">
                         <p
                           className={`font-semibold ${
-                            isHome ? "text-blue-400" : "text-white"
+                            isHome ? "text-blue-600" : "text-slate-900"
                           }`}
                         >
                           {nextMatch.homeTeam}
                         </p>
 
-                        <p className="text-sm text-zinc-500">vs</p>
+                        <p className="soft-text text-sm">vs</p>
 
                         <p
                           className={`font-semibold ${
-                            !isHome ? "text-blue-400" : "text-white"
+                            !isHome ? "text-blue-600" : "text-slate-900"
                           }`}
                         >
                           {nextMatch.awayTeam}
@@ -169,7 +173,7 @@ export default async function Home() {
                       </div>
                     </>
                   ) : (
-                    <p className="mt-2 font-semibold text-zinc-400">
+                    <p className="muted mt-2 font-semibold">
                       Brak zaplanowanych meczów
                     </p>
                   )}
@@ -179,16 +183,16 @@ export default async function Home() {
           })}
         </section>
 
-        <section className="mt-12 rounded-3xl border border-zinc-800 bg-zinc-900 p-6 sm:p-8">
-          <p className="text-sm font-semibold uppercase tracking-[0.25em] text-blue-400">
+        <section className="card mt-12 rounded-3xl p-6 sm:p-8">
+          <p className="brand text-sm font-semibold uppercase tracking-[0.25em]">
             Najbliższe mecze
           </p>
 
-          <h2 className="mt-2 text-2xl font-bold">
+          <h2 className="mt-2 text-2xl font-bold text-slate-900">
             Najbliższe spotkania Górnika
           </h2>
 
-          <div className="mt-6 divide-y divide-zinc-800">
+          <div className="mt-6 divide-y divide-slate-200">
             {allUpcomingMatches.slice(0, 6).map((match) => {
               const isHome = match.homeTeam
                 .toUpperCase()
@@ -201,22 +205,20 @@ export default async function Home() {
                 >
                   <div>
                     <div className="flex items-center gap-3">
-                      <p className="text-xs font-bold uppercase tracking-wider text-blue-400">
+                      <p className="brand text-xs font-bold uppercase tracking-wider">
                         {match.category}
                       </p>
 
                       <span
                         className={`rounded-full px-2.5 py-1 text-[10px] font-bold uppercase tracking-wide ${
-                          isHome
-                            ? "bg-blue-600 text-white"
-                            : "border border-blue-500/40 bg-blue-950/40 text-blue-300"
+                          isHome ? "badge-home" : "badge-away"
                         }`}
                       >
                         {isHome ? "HOME" : "AWAY"}
                       </span>
                     </div>
 
-                    <p className="mt-2 text-sm text-zinc-400">
+                    <p className="muted mt-2 text-sm">
                       {formatDate(match.date)}
                       {match.time ? ` • ${match.time}` : ""}
                     </p>
@@ -224,14 +226,16 @@ export default async function Home() {
 
                   <div className="sm:text-right">
                     <p className="font-semibold">
-                      <span className={isHome ? "text-blue-400" : "text-white"}>
+                      <span
+                        className={isHome ? "text-blue-600" : "text-slate-900"}
+                      >
                         {match.homeTeam}
                       </span>
 
-                      <span className="mx-2 text-zinc-600">–</span>
+                      <span className="mx-2 text-slate-300">–</span>
 
                       <span
-                        className={!isHome ? "text-blue-400" : "text-white"}
+                        className={!isHome ? "text-blue-600" : "text-slate-900"}
                       >
                         {match.awayTeam}
                       </span>
@@ -242,10 +246,10 @@ export default async function Home() {
                         href={getGoogleMapsUrl(match.venue)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-1 inline-flex items-start gap-1 text-sm text-zinc-500 transition hover:text-blue-400"
+                        className="muted mt-1 inline-flex items-start gap-1 text-sm transition hover:text-blue-600"
                       >
                         <span>📍</span>
-                        <span className="underline decoration-zinc-700 underline-offset-4">
+                        <span className="underline decoration-slate-300 underline-offset-4">
                           {match.venue}
                         </span>
                       </a>

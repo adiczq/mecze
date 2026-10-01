@@ -1,4 +1,7 @@
-export type TeamKey = "zaki" | "trampkarze" | "seniorzy";
+export type TeamKey =
+  | "zaki"
+  | "trampkarze"
+  | "seniorzy";
 
 export const teamConfig = {
   zaki: {
