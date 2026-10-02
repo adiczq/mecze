@@ -138,7 +138,7 @@ export async function getTeamScheduleData(
 
   try {
     const result = await fetchPzpnMatches(team);
-
+    console.log(`PZPN OK: ${team} - ${result.matches.length} meczów`);
     if (result.matches.length === 0) {
       return {
         matches: getFallbackMatches(team),
