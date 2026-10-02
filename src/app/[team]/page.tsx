@@ -1,18 +1,20 @@
 import { notFound } from "next/navigation";
 import TeamSchedulePage from "@/components/TeamSchedulePage";
-import { teamConfig, type TeamKey } from "@/lib/teams";
+import { teamConfig, teamKeys, type TeamKey } from "@/lib/teams";
 
 type TeamPageProps = {
-  params: Promise<{
-    team: string;
-  }>;
+  params: Promise<{ team: string }>;
 };
 
 export default async function TeamPage({ params }: TeamPageProps) {
   const { team } = await params;
-  if (!(team in teamConfig)) {
+
+  const teamKey = teamKeys.find((key) => teamConfig[key].slug === team) as
+    TeamKey | undefined;
+
+  if (!teamKey) {
     notFound();
   }
 
-  return <TeamSchedulePage teamKey={team as TeamKey} />;
+  return <TeamSchedulePage teamKey={teamKey} />;
 }

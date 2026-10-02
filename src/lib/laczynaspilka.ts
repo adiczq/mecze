@@ -4,13 +4,19 @@ import { teamConfig, type TeamKey } from "@/lib/teams";
 import zakiMatches from "@/data/zaki.json";
 import trampkarzeMatches from "@/data/trampkarze.json";
 import seniorzyMatches from "@/data/seniorzy.json";
+import zaki2018Matches from "@/data/zaki-2018.json";
+import orlik2017Matches from "@/data/orlik-2017.json";
+import junior2010Matches from "@/data/junior-2010.json";
 
 const API_URL = "https://shared-api-ng.laczynaspilka.pl/api/lnp/shared/v1";
 
 const fallbackMatches: Record<TeamKey, Match[]> = {
-  zaki: zakiMatches as Match[],
-  trampkarze: trampkarzeMatches as Match[],
-  seniorzy: seniorzyMatches as Match[],
+  zaki2019: zakiMatches,
+  zaki2018: zaki2018Matches,
+  orlik2017: orlik2017Matches,
+  trampkarze2013: trampkarzeMatches,
+  junior2010: junior2010Matches,
+  seniorzy: seniorzyMatches,
 };
 
 export function getFallbackMatches(team: TeamKey): Match[] {

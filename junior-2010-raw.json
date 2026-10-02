@@ -1,0 +1,995 @@
+[
+  {
+    "matchId": "e147ded2-e1cc-4b1b-a06b-11bf32226481",
+    "dateTime": "2026-11-15T10:00:00",
+    "stadium": "Sportowa 2A , 44-264 Jankowice",
+    "state": "Nierozegrany",
+    "queue": 14,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "236e2761-5bd3-400e-8d57-ce85ae81b196",
+    "dateTime": "2026-11-15T10:00:00",
+    "stadium": "Słoneczna 44 , 44-213 Książenice",
+    "state": "Nierozegrany",
+    "queue": 14,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "ac02e09d-3356-4ea7-b03e-1fb0818988bf",
+    "dateTime": "2026-11-15T10:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzisław Śl.",
+    "state": "Nierozegrany",
+    "queue": 14,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "bbd97606-0413-46d4-ad7c-e7f6235950e9",
+    "dateTime": "2026-11-11T10:00:00",
+    "stadium": "LUDOWY KLUB SPORTOWY FORTECA ŚWIERKLANY (Świerklany, Zamkowa 6A)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "78401d0d-4dd5-44e1-b462-e7fce52ba194",
+    "dateTime": "2026-11-11T10:00:00",
+    "stadium": "Poprzeczna 3a , 44-290 Jejkowice ",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "4a3f78ed-de00-42c5-8081-fb9d22ffcb17",
+    "dateTime": "2026-11-11T10:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "3c4364cd-efa6-47f7-9b23-8b3b45e2b909",
+    "dateTime": "2026-11-08T13:00:00",
+    "stadium": "Stanisława Małachowskiego 130 , 44-253 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "49e3e464-e914-4a2e-9630-65bbd6502da2",
+    "dateTime": "2026-11-07T10:00:00",
+    "stadium": "Sportowa 2A , 44-264 Jankowice",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "1dcac0f2-0a3e-4627-911b-048fb426448b",
+    "dateTime": "2026-11-07T10:00:00",
+    "stadium": "Słoneczna 44 , 44-213 Książenice",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "f56ab05b-7c6b-4e31-81fe-7d4311e6f611",
+    "dateTime": "2026-10-31T10:00:00",
+    "stadium": "Poprzeczna 3a , 44-290 Jejkowice ",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c306ec5d-ef79-4b98-971b-284ab738a914",
+    "dateTime": "2026-10-31T10:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "e0d087b1-7294-45a4-8c49-81dd5ac93a42",
+    "dateTime": "2026-10-31T10:00:00",
+    "stadium": "Lipowa 9 , 44-240 Żory ",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "58b4fa11-3f00-4716-a952-bc54aad63f84",
+    "dateTime": "2026-10-25T10:00:00",
+    "stadium": "Sportowa 2A , 44-264 Jankowice",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "716130ba-00c4-402f-a2d1-3a4424e93a2a",
+    "dateTime": "2026-10-25T10:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzisław Śl.",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "cfbc6bbf-f8c4-4cc9-a6ab-1db2db84d104",
+    "dateTime": "2026-10-25T10:00:00",
+    "stadium": "Stanisława Małachowskiego 130 , 44-253 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "79260802-93ba-4900-980f-be625e8e869e",
+    "dateTime": "2026-10-18T10:00:00",
+    "stadium": "Słoneczna 44 , 44-213 Książenice",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "8492206d-d4c5-4d02-ac69-a1c0e6343dc9",
+    "dateTime": "2026-10-17T10:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "1404589e-9a25-4e62-ae94-d862eabb5399",
+    "dateTime": "2026-10-17T09:30:00",
+    "stadium": "Lipowa 9 , 44-240 Żory ",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "58a7f990-81a9-46ef-9390-03d154913b6a",
+    "dateTime": "2026-10-11T10:00:00",
+    "stadium": "Poprzeczna 3a , 44-290 Jejkowice ",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "5cb3ab02-c644-40cb-aa78-952ea6018403",
+    "dateTime": "2026-10-10T11:45:00",
+    "stadium": "Stanisława Małachowskiego 130 , 44-253 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "9fefaa86-e256-404a-893f-1629bdc09c19",
+    "dateTime": "2026-10-10T10:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzislaw Śl",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "bd734d0b-a1f0-4749-99ba-f3ef1bc71709",
+    "dateTime": "2026-10-04T14:00:00",
+    "stadium": "Stanisława Małachowskiego 130 , 44-253 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "530b07ab-9f6c-450d-a6d6-11c58b0adcf9",
+    "dateTime": "2026-10-04T10:00:00",
+    "stadium": "Poprzeczna 3a , 44-290 Jejkowice ",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "78850efd-d4eb-433d-9ada-95eb8fc7d51f",
+    "dateTime": "2026-10-03T10:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "191d63ae-d829-42ee-bcd7-b95b1cdc2032",
+    "dateTime": "2026-09-27T12:30:00",
+    "stadium": "Stadion (Rybnik, Stanisława Małachowskiego 130)",
+    "state": "Rozegrany",
+    "queue": 6,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "8:1",
+      "half": "3:0",
+      "fullTime": "8:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "698e3e8c-6b4c-4bc9-9005-faebfa02b6fd",
+    "dateTime": "2026-09-27T10:00:00",
+    "stadium": "Lipowa 9 , 44-240 Żory ",
+    "state": "Rozegrany",
+    "queue": 6,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "8:3",
+      "half": "5:1",
+      "fullTime": "8:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "92e943ee-dcdd-4a6c-9617-c1b9a1161bc6",
+    "dateTime": "2026-09-26T12:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzisław Śl.",
+    "state": "Walkover",
+    "queue": 6,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:0",
+      "fullTime": "3:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "931d669c-6038-44ea-9a6b-5bcc3141b63f",
+    "dateTime": "2026-09-20T10:00:00",
+    "stadium": "Lipowa 9 , 44-240 Żory ",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:0",
+      "half": "0:0",
+      "fullTime": "3:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "50fd4762-9888-443e-b0c1-6337669dfb2c",
+    "dateTime": "2026-09-20T10:00:00",
+    "stadium": "Poprzeczna 3a , 44-290 Jejkowice ",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:15",
+      "half": "0:7",
+      "fullTime": "2:15"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "612f9b49-0dac-4adc-aadd-8bad9dd9a419",
+    "dateTime": "2026-09-19T10:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "20:1",
+      "half": "6:1",
+      "fullTime": "20:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "99f58620-a0ab-41c3-8cce-38de86f5f1dc",
+    "dateTime": "2026-09-13T08:30:00",
+    "stadium": "LKS \"JEDNOŚĆ\" JEJKOWICE  (Jejkowice, Poprzeczna 3a)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "8:0",
+      "half": "6:0",
+      "fullTime": "8:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "00258794-a4f8-4d04-badc-f33437087b1f",
+    "dateTime": "2026-09-12T10:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzisław Śl.",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "4:3",
+      "half": "1:1",
+      "fullTime": "4:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "95813396-5771-4b1f-a782-40ca4ace9db8",
+    "dateTime": "2026-09-12T10:00:00",
+    "stadium": "Słoneczna 44 , 44-213 Książenice",
+    "state": "Walkover",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "0:3",
+      "fullTime": "0:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "518a17ab-98e3-422a-bba1-359f0131ed10",
+    "dateTime": "2026-09-09T17:00:00",
+    "stadium": "Lipowa 9 , 44-240 Żory ",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:1",
+      "half": "1:0",
+      "fullTime": "2:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "cbc82116-155b-4459-8871-c025b3af3f17",
+    "dateTime": "2026-09-08T18:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:4",
+      "half": "1:0",
+      "fullTime": "1:4"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "4836370d-eed5-42db-9d66-6e3f95ef03c3",
+    "dateTime": "2026-09-08T17:00:00",
+    "stadium": "Słoneczna 44 , 44-213 Książenice",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "0:17",
+      "half": "0:11",
+      "fullTime": "0:17"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "6773f32e-1a4b-483d-82d8-0da9279f4f14",
+    "dateTime": "2026-09-16T17:00:00",
+    "stadium": "Stanisława Małachowskiego 130 , 44-253 Rybnik",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:2",
+      "half": "1:0",
+      "fullTime": "2:2"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "26f32d6e-55d1-4750-b3c7-74190c0592dc",
+    "dateTime": "2026-09-06T10:00:00",
+    "stadium": "Poprzeczna 3a , 44-290 Jejkowice ",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:3",
+      "half": "1:1",
+      "fullTime": "2:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "a69046d5-5911-4e47-8c17-108fad76b16f",
+    "dateTime": "2026-09-06T10:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzisław Śl.",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "14:0",
+      "half": "5:0",
+      "fullTime": "14:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "5e3460b4-0a2b-4496-801b-ca181ff6b58b",
+    "dateTime": "2026-08-31T18:00:00",
+    "stadium": "Lipowa 9 , 44-240 Żory ",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "9d4b5efe-038b-4bbe-9947-7989ec3162d6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/b/b/630cae1492382fb955839bb6__w64",
+      "name": "KS BARANOWICE - ŻORY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "0d9e8dd1-117e-41fe-a0f1-7a6b2eba7314",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/b/7/6363b1087bb6c3e5e07fe7b1__w64",
+      "name": "LKS JEDNOŚĆ JEJKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "12:1",
+      "half": "5:1",
+      "fullTime": "12:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "ea702651-3973-4bc5-9d21-783d5793701a",
+    "dateTime": "2026-08-30T10:00:00",
+    "stadium": "Jastrzębska 194 , 44-325 Wodzisław Śl.",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "6df6445e-06d8-420c-b07e-90f5b602cd08",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/b/1/b/69fcbebaa893e47ddc14fb1b__w64",
+      "name": "KS WICHER WILCHWY",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "e7e07922-eb45-4906-bd11-baf8c40ac29d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/8/7/8/6899a032a893e47ddc14b878__w64",
+      "name": "LKS ORZEŁ JANKOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:1",
+      "half": "1:0",
+      "fullTime": "3:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "abeb8072-75a0-4668-aafb-af625561e2aa",
+    "dateTime": "2026-08-30T10:00:00",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "f822fccf-dd0c-4f30-8a30-a5e547016164",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "b151495f-a3de-49c6-89ed-db798e6afbce",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/a/e/630e663292382fb955839ea3__w64",
+      "name": "KS GÓRNIK BOGUSZOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "0:18",
+      "half": "0:8",
+      "fullTime": "0:18"
+    },
+    "transmissions": []
+  }
+]

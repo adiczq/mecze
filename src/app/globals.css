@@ -215,7 +215,7 @@ body {
 }
 
 .featured-match {
-  background-size: 220% 220%;
+  background-size: 200% 200%;
   animation: featured-glow 9s ease-in-out infinite;
 }
 
