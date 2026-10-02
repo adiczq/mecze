@@ -15,12 +15,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Górnik Radlin – Mecze",
-  description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
+  description: "Terminarze wszystkich drużyn Górnika Radlin w jednym miejscu.",
   metadataBase: new URL("https://mecze.adiczq.dev"),
   manifest: "/manifest.webmanifest",
   openGraph: {
     title: "Górnik Radlin – Mecze",
-    description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
+    description:
+      "Terminarze wszystkich drużyn Górnika Radlin w jednym miejscu.",
     url: "https://mecze.adiczq.dev",
     siteName: "Górnik Radlin – Mecze",
     locale: "pl_PL",
@@ -38,7 +39,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Górnik Radlin – Mecze",
-    description: "Terminarz Żaków, Trampkarzy i Seniorów Górnika Radlin.",
+    description:
+      "Terminarze wszystkich drużyn Górnika Radlin w jednym miejscu.",
     images: ["/opengraph-image.jpg"],
   },
 };
