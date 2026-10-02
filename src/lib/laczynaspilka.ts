@@ -11,7 +11,7 @@ import orlik2016Matches from "@/data/orlik-2016.json";
 import orlik2017IIMatches from "@/data/orlik-2017-ii.json";
 import seniorzyIIMatches from "@/data/seniorzy-ii.json";
 
-const API_URL = "https://shared-api-ng.laczynaspilka.pl/api/lnp/shared/v1";
+const PROXY_URL = process.env.PZPN_PROXY_URL || "https://proxy.adiczq.dev";
 
 const fallbackMatches: Record<TeamKey, Match[]> = {
   zaki2019: zakiMatches,
@@ -38,19 +38,22 @@ type ApiMatch = {
   matchId: string;
   dateTime: string;
   stadium?: string;
+  state?: string;
   queue?: number;
   host: ApiTeam;
   guest: ApiTeam;
 };
 
 function mapApiMatchToMatch(match: ApiMatch): Match {
+  const [date, timePart] = match.dateTime.split("T");
+
   return {
     id: match.matchId,
-    date: match.dateTime.split("T")[0],
-    time: match.dateTime.split("T")[1]?.slice(0, 5),
+    date,
+    time: timePart?.slice(0, 5),
     homeTeam: match.host.name,
     awayTeam: match.guest.name,
-    venue: match.stadium || undefined,
+    venue: match.stadium?.trim() || undefined,
     round: match.queue !== undefined ? `Kolejka ${match.queue}` : undefined,
     source: "PZPN",
   };
@@ -77,35 +80,46 @@ function prepareApiMatches(matches: ApiMatch[]): Match[] {
     .map(mapApiMatchToMatch);
 }
 
-async function fetchPzpnMatches(
-  team: TeamKey,
-  token: string
-): Promise<Match[]> {
+async function fetchPzpnMatches(team: TeamKey): Promise<Match[]> {
   const config = teamConfig[team];
+  const proxySecret = process.env.PROXY_SECRET;
 
-  if (!config.playId) {
+  if (!config.playId || !proxySecret) {
     return [];
   }
 
-  // Po otrzymaniu tokenu tutaj podepniemy:
-  // /Plays/{playId}/queues
-  // oraz /Plays/{playId}/matches
+  const response = await fetch(
+    `${PROXY_URL}/pzpn/plays/${encodeURIComponent(config.playId)}/matches`,
+    {
+      headers: {
+        "x-proxy-secret": proxySecret,
+      },
+      next: {
+        revalidate: 300,
+      },
+    }
+  );
 
-  void token;
+  if (!response.ok) {
+    const text = await response.text();
 
-  return [];
+    throw new Error(`Proxy ${response.status} ${response.statusText}: ${text}`);
+  }
+
+  const data = (await response.json()) as ApiMatch[];
+
+  return prepareApiMatches(data);
 }
 
 export async function getTeamMatches(team: TeamKey): Promise<Match[]> {
-  const token = process.env.PZPN_API_TOKEN;
   const config = teamConfig[team];
 
-  if (!token || token === "test" || !config.playId) {
+  if (!config.playId) {
     return getFallbackMatches(team);
   }
 
   try {
-    const matches = await fetchPzpnMatches(team, token);
+    const matches = await fetchPzpnMatches(team);
 
     if (matches.length === 0) {
       return getFallbackMatches(team);
@@ -120,25 +134,25 @@ export async function getTeamMatches(team: TeamKey): Promise<Match[]> {
 }
 
 export async function testPzpnConnection() {
-  const token = process.env.PZPN_API_TOKEN;
+  const proxySecret = process.env.PROXY_SECRET;
 
-  if (!token) {
-    throw new Error("Brak PZPN_API_TOKEN w .env.local");
+  if (!proxySecret) {
+    throw new Error("Brak PROXY_SECRET");
   }
 
-  const response = await fetch(`${API_URL}/Seasons/dictionaries`, {
+  const response = await fetch(`${PROXY_URL}/pzpn-test`, {
     headers: {
-      Authorization: `Bearer ${token}`,
+      "x-proxy-secret": proxySecret,
     },
     cache: "no-store",
   });
 
-  const text = await response.text();
+  const data = await response.json();
 
   return {
     ok: response.ok,
     status: response.status,
     statusText: response.statusText,
-    response: text,
+    response: data,
   };
 }
