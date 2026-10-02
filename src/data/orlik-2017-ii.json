@@ -1,0 +1,62 @@
+[
+  {
+    "id": "547e6f5b-d2b4-4898-aa50-71972db9840c",
+    "date": "2026-10-04",
+    "time": "13:00",
+    "homeTeam": " LKS FORTECA ŚWIERKLANY III",
+    "awayTeam": "KS GÓRNIK RADLIN II",
+    "venue": "Zamkowa 6A , 44-266 Świerklany",
+    "round": "Kolejka 5",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "67a677d5-0f67-428c-a8a4-aaf8084ff6a5",
+    "date": "2026-10-10",
+    "time": "13:00",
+    "homeTeam": "LKS ORZEŁ PALOWICE",
+    "awayTeam": "KS GÓRNIK RADLIN II",
+    "venue": "ORZEŁ ARENA (Palowice, Dębowa 1)",
+    "round": "Kolejka 6",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "458f04c0-3b32-4216-8c62-0ba2d361f76e",
+    "date": "2026-10-17",
+    "time": "13:00",
+    "homeTeam": "AKADEMIA PIŁKARSKA ROGOŹNA II",
+    "awayTeam": "KS GÓRNIK RADLIN II",
+    "venue": "Kłokocińska 78a , 44-240 Żory",
+    "round": "Kolejka 7",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "1941459b-abf6-438b-b15c-5574e68fc984",
+    "date": "2026-10-24",
+    "time": "13:00",
+    "homeTeam": "KS GÓRNIK RADLIN II",
+    "awayTeam": "MKS SPARTA ŻORY III",
+    "venue": "Odległa 140 , 44-310 Radlin",
+    "round": "Kolejka 8",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "c3fa2f2f-97f9-4f65-ba16-9ad8d81f50ac",
+    "date": "2026-10-31",
+    "time": "13:00",
+    "homeTeam": "KS ŚWIERKLANY II",
+    "awayTeam": "KS GÓRNIK RADLIN II",
+    "venue": "Wodzisławska 201 , 44-240 Żory",
+    "round": "Kolejka 9",
+    "source": "Łączy Nas Piłka"
+  },
+  {
+    "id": "06783ca5-673b-4a74-8bc8-868569e1400a",
+    "date": "2026-11-07",
+    "time": "13:00",
+    "homeTeam": "KS GÓRNIK RADLIN II",
+    "awayTeam": " LKS FORTECA ŚWIERKLANY III",
+    "venue": "Odległa 140 , 44-310 Radlin",
+    "round": "Kolejka 10",
+    "source": "Łączy Nas Piłka"
+  }
+]

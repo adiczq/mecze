@@ -7,6 +7,9 @@ import seniorzyMatches from "@/data/seniorzy.json";
 import zaki2018Matches from "@/data/zaki-2018.json";
 import orlik2017Matches from "@/data/orlik-2017.json";
 import junior2010Matches from "@/data/junior-2010.json";
+import orlik2016Matches from "@/data/orlik-2016.json";
+import orlik2017IIMatches from "@/data/orlik-2017-ii.json";
+import seniorzyIIMatches from "@/data/seniorzy-ii.json";
 
 const API_URL = "https://shared-api-ng.laczynaspilka.pl/api/lnp/shared/v1";
 
@@ -14,9 +17,12 @@ const fallbackMatches: Record<TeamKey, Match[]> = {
   zaki2019: zakiMatches,
   zaki2018: zaki2018Matches,
   orlik2017: orlik2017Matches,
+  orlik2017II: orlik2017IIMatches,
+  orlik2016: orlik2016Matches,
   trampkarze2013: trampkarzeMatches,
   junior2010: junior2010Matches,
   seniorzy: seniorzyMatches,
+  seniorzyII: seniorzyIIMatches,
 };
 
 export function getFallbackMatches(team: TeamKey): Match[] {

@@ -1,0 +1,632 @@
+[
+  {
+    "matchId": "7fbcfc00-e0e0-4dc7-bfb2-adef282cb8c1",
+    "dateTime": "2026-11-08T10:00:00",
+    "stadium": "Za Torem 15 , 44-200 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "8c63eed4-907b-4fe8-8dd1-b31896e92d75",
+    "dateTime": "2026-11-07T13:00:00",
+    "stadium": "Spółdzielcza 1a , 44-336 Jastrzębie-Zdrój",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "bafb5cdf-998b-423d-ab4c-dbc1dc07f57d",
+    "dateTime": "2026-11-07T13:00:00",
+    "stadium": "Główna 28 , 44-230 Bełk",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "633bc197-abeb-4469-92e4-056e3ceb3ef0",
+    "dateTime": "2026-10-31T14:30:00",
+    "stadium": "Bolesława Chrobrego 125 ,  Wodzisław Śląski",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "2a09e448-753a-432d-92cf-c8383dc61104",
+    "dateTime": "2026-10-31T13:00:00",
+    "stadium": "Jana Kochanowskiego , 44-280 RYDUŁTOWY",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "8abfaac2-1ac6-442f-86bd-b133522743ce",
+    "dateTime": "2026-10-31T13:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "e24d1154-24e5-4ac3-8bf0-4dd766fcfd06",
+    "dateTime": "2026-10-24T13:00:00",
+    "stadium": "Główna 28 , 44-230 Bełk",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "5f6029fe-c452-4b00-91e7-cdbddd7cb596",
+    "dateTime": "2026-10-24T13:00:00",
+    "stadium": "Jana Kochanowskiego , 44-280 RYDUŁTOWY",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "141ce7a2-4845-40e1-8a2b-da95d8c12588",
+    "dateTime": "2026-10-24T09:00:00",
+    "stadium": "Za Torem 15 , 44-200 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "ca7b32da-fc18-4924-8548-806ff5487a16",
+    "dateTime": "2026-10-17T13:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "8fb08168-2ebb-4ef3-9924-6e0332edd478",
+    "dateTime": "2026-10-17T13:00:00",
+    "stadium": "Spółdzielcza 1a , 44-336 Jastrzębie-Zdrój",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "29c5fd58-603a-4282-a5af-c158c2212f3b",
+    "dateTime": "2026-10-17T12:30:00",
+    "stadium": "Bolesława Chrobrego 125 ,  Wodzisław Śląski",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "2ba728a6-de21-404e-aafc-7049a9abce69",
+    "dateTime": "2026-10-11T09:00:00",
+    "stadium": "Za Torem 15 , 44-200 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "3f43b986-0420-4ba1-af22-e20ee0bce5dc",
+    "dateTime": "2026-10-10T10:30:00",
+    "stadium": "Jana Kochanowskiego , 44-280 RYDUŁTOWY",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "f2f919b0-3d06-4cc5-93b6-f3feb7671223",
+    "dateTime": "2026-10-10T10:00:00",
+    "stadium": "Mieszka 10 , 44-300 Wodzisław Śląski",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "9554617e-6586-4d3f-9c56-e3ec58b0a099",
+    "dateTime": "2026-10-04T10:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 5,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "5b451391-d489-4c03-8270-1251db549212",
+    "dateTime": "2026-10-03T12:30:00",
+    "stadium": "Bolesława Chrobrego 125 ,  Wodzisław Śląski",
+    "state": "Nierozegrany",
+    "queue": 5,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "33d1e484-7393-415a-b1bd-172b30b41cdd",
+    "dateTime": "2026-10-01T18:00:00",
+    "stadium": "ORLIK MICKIEWICZA (Rydułtowy, Adama Mickiewicza)",
+    "state": "Nierozegrany",
+    "queue": 5,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "90f22f79-bb03-43c6-865e-c6733bc4350c",
+    "dateTime": "2026-09-26T16:00:00",
+    "stadium": "Za Torem 15 , 44-200 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 4,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "c5014aed-6c30-4f12-b371-d871ee5d7a4f",
+    "dateTime": "2026-09-26T10:30:00",
+    "stadium": "Główna 28 , 44-230 Bełk",
+    "state": "Nierozegrany",
+    "queue": 4,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "48ef6a10-b6ba-4b0b-8535-dd528875bade",
+    "dateTime": "2026-09-25T16:00:00",
+    "stadium": "Spółdzielcza 1a , 44-336 Jastrzębie-Zdrój",
+    "state": "Nierozegrany",
+    "queue": 4,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "55714b9a-6042-4b71-b1ee-31c1fbd8f8b2",
+    "dateTime": "2026-09-20T12:30:00",
+    "stadium": "Spółdzielcza 1a , 44-336 Jastrzębie-Zdrój",
+    "state": "Nierozegrany",
+    "queue": 3,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "1778c868-029b-4bd0-9769-03e17d0a615b",
+    "dateTime": "2026-09-19T13:00:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 3,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "cf9ae123-878e-44fb-a6aa-3696c495e0c3",
+    "dateTime": "2026-09-19T12:30:00",
+    "stadium": "Bolesława Chrobrego 125 ,  Wodzisław Śląski",
+    "state": "Nierozegrany",
+    "queue": 3,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "fc3c1552-c6c0-4ccc-804a-eea28fba40fc",
+    "dateTime": "2026-09-13T16:00:00",
+    "stadium": "Za Torem 15 , 44-200 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 2,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "d11078e3-ea47-46fa-add8-140d0d055278",
+    "dateTime": "2026-09-12T12:30:00",
+    "stadium": "Główna 28 , 44-230 Bełk",
+    "state": "Nierozegrany",
+    "queue": 2,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "a2a2b52d-c47a-4d50-a7bb-0d9a44b0e0fb",
+    "dateTime": "2026-09-12T10:00:00",
+    "stadium": "Jana Kochanowskiego , 44-280 RYDUŁTOWY",
+    "state": "Nierozegrany",
+    "queue": 2,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "c4322b75-330f-4bf6-ad9e-f2e9588f57dc",
+    "dateTime": "2026-09-09T16:45:00",
+    "stadium": "Odległa 140 , 44-310 Radlin",
+    "state": "Nierozegrany",
+    "queue": 1,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "888f7138-35ac-47da-826b-8ed368a58ed0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d470307-a202-4849-a401-f66f24df154b",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/0/e/610b79bceeb389649d4a9e05__w64",
+      "name": "MKP ODRA CENTRUM WODZISŁAW ŚLĄSKI  II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "91063723-5ca8-43c1-8605-a9589db7b6c1",
+    "dateTime": "2026-09-06T12:30:00",
+    "stadium": "Spółdzielcza 1a , 44-336 Jastrzębie-Zdrój",
+    "state": "Nierozegrany",
+    "queue": 1,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "d24ad2f2-ca0e-46a4-8cde-7ffb501cc179",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/f/8/7/641cc698a893e47ddc06878f__w64",
+      "name": "UKS AP CHAMPIONS JASTRZĘBIE-ZDRÓJ",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "4f4f4b78-1ef8-4f9f-935d-6b8ce0b88ff8",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "96078ab6-4deb-4709-9321-2f2c6700b83a",
+    "dateTime": "2026-09-06T10:30:00",
+    "stadium": "Główna 28 , 44-230 Bełk",
+    "state": "Nierozegrany",
+    "queue": 1,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "79cf513f-017a-441d-b78e-e39ba9ffb6f0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/7/d/630da8d392382fb955839d76__w64",
+      "name": "KS DECOR BEŁK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "64a990dd-16ca-4cd1-b2d7-d9bc444ba9c0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/5/8/f/630f9b8d92382fb955839f85__w64",
+      "name": "MTS RYBNIK",
+      "abbreviation": ""
+    },
+    "transmissions": []
+  }
+]

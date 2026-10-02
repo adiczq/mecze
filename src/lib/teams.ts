@@ -2,9 +2,12 @@ export type TeamKey =
   | "zaki2019"
   | "zaki2018"
   | "orlik2017"
+  | "orlik2017II"
+  | "orlik2016"
   | "trampkarze2013"
   | "junior2010"
-  | "seniorzy";
+  | "seniorzy"
+  | "seniorzyII";
 
 export const teamConfig = {
   zaki2019: {
@@ -36,6 +39,25 @@ export const teamConfig = {
     teamId: "90f289d1-6264-4390-bb7c-5199afc7456a",
     order: 3,
   },
+  orlik2017II: {
+    name: "Orlik 2017 II",
+    slug: "orlik-2017-ii",
+    description: "Terminarz drużyny Orlik 2017 II",
+    source: "Łączy Nas Piłka",
+    playId: "b4b47c2c-5352-427a-919b-66a665ed135d",
+    teamId: "c2c57d1e-d736-4218-8e7f-a6ee1a63a5e9",
+    order: 4,
+  },
+
+  orlik2016: {
+    name: "Orlik 2016",
+    slug: "orlik-2016",
+    description: "Terminarz drużyny Orlik 2016",
+    source: "Łączy Nas Piłka",
+    playId: "d1ad72e4-035b-459a-ab4d-45bf28fa8176",
+    teamId: "888f7138-35ac-47da-826b-8ed368a58ed0",
+    order: 4,
+  },
 
   trampkarze2013: {
     name: "Trampkarze 2013",
@@ -65,6 +87,15 @@ export const teamConfig = {
     playId: "359dce4b-6ade-4766-af21-b26d473ca3d8",
     teamId: "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
     order: 6,
+  },
+  seniorzyII: {
+    name: "Seniorzy II",
+    slug: "seniorzy-ii",
+    description: "Terminarz drużyny Seniorów II",
+    source: "Łączy Nas Piłka",
+    playId: "c9cda44d-6dee-43f9-99dc-e0caeb902303",
+    teamId: "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+    order: 9,
   },
 } satisfies Record<
   TeamKey,

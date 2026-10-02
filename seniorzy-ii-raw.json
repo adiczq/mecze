@@ -1,0 +1,2127 @@
+[
+  {
+    "matchId": "4fe19486-7da2-4e73-a1b0-658c6535d3c2",
+    "dateTime": "2026-11-15T13:00:00",
+    "stadium": "Boisko w Dębieńsku (Czerwionka-Leszczyny, Bełkowska 1c)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "6d62d707-4d82-4b19-ba5c-30af60fc0117",
+    "dateTime": "2026-11-15T13:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "cf374b4f-4d89-48f3-80fd-d13422970b3f",
+    "dateTime": "2026-11-15T13:00:00",
+    "stadium": "Boisko piłkarskie (Rybnik, Łączna 55)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "ae072eca-36f9-43cc-895b-350e089af3bf",
+    "dateTime": "2026-11-15T13:00:00",
+    "stadium": "INTER KROSTOSZOWICE (Krostoszowice, Szybowa 20)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c39e4806-1309-49aa-a573-6e6946005a3e",
+    "dateTime": "2026-11-15T13:00:00",
+    "stadium": "STADION MIEJSKI \"NAPRZÓD\" IM. ALOJZEGO MUSIOŁA (Rydułtowy, gen. Józefa Bema 126C)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "9c0a8979-d828-445f-8bbc-bfd6abc51a64",
+    "dateTime": "2026-11-15T13:00:00",
+    "stadium": "Boisko MOSIR Rybnik (Rybnik, Cystersów 34)",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "989dd7cd-570a-456a-9d5f-b02728b7d2e2",
+    "dateTime": "2026-11-14T15:00:00",
+    "stadium": "Hotelowa 72 , 44-213 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 13,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "b1f2d2ee-daaa-4a3f-97d6-21e1df5c0d8a",
+    "dateTime": "2026-11-11T13:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "fcbf68ad-e925-42f8-89ba-4f22828af5df",
+    "dateTime": "2026-11-11T13:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "9f8a6d3c-c1c6-482c-907d-6ad88818e9b5",
+    "dateTime": "2026-11-11T13:00:00",
+    "stadium": "Klub Sportowy \"POLONIA\" Niewiadom w Rybniku (Rybnik, Sportowa 88)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "f6db1f24-113f-49d5-a0a5-5d31aae25079",
+    "dateTime": "2026-11-11T13:00:00",
+    "stadium": "Wielopole Stadion (Rybnik, Podleśna 21)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "95a1acd7-360c-4245-bf53-f2322c8e9191",
+    "dateTime": "2026-11-11T13:00:00",
+    "stadium": "KS RYMER RYBNIK (Rybnik, Górnośląska 46)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "4b8a1276-20b3-4109-bcc1-c903f6a2a3fe",
+    "dateTime": "2026-11-11T13:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "0bedf642-b242-4afd-8821-53dd57deb8de",
+    "dateTime": "2026-11-11T12:00:00",
+    "stadium": "EMMA PLAC RADLIN (Radlin, Mariacka 186)",
+    "state": "Nierozegrany",
+    "queue": 12,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "7ed978b4-b5e4-4432-aaf4-e38800a8b7d5",
+    "dateTime": "2026-11-08T15:00:00",
+    "stadium": "Hotelowa 72 , 44-213 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "1d7b873b-02e3-4ab9-9bba-ba408bdc94a0",
+    "dateTime": "2026-11-08T14:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c92ebc16-ad92-4790-b5e2-1e49ad96add8",
+    "dateTime": "2026-11-08T14:00:00",
+    "stadium": "Boisko w Dębieńsku (Czerwionka-Leszczyny, Bełkowska 1c)",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "994e3daf-f377-498d-b3ce-c5c45121aebb",
+    "dateTime": "2026-11-08T14:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "28d0b475-3da7-44c6-9450-540dba8b1bfb",
+    "dateTime": "2026-11-08T14:00:00",
+    "stadium": "Boisko piłkarskie (Rybnik, Łączna 55)",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "466f8429-f060-454a-a9a0-095c8827e0ab",
+    "dateTime": "2026-11-08T14:00:00",
+    "stadium": "INTER KROSTOSZOWICE (Krostoszowice, Szybowa 20)",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "87ee8003-3d22-4256-b4d6-4e5a82118184",
+    "dateTime": "2026-11-08T14:00:00",
+    "stadium": "STADION MIEJSKI \"NAPRZÓD\" IM. ALOJZEGO MUSIOŁA (Rydułtowy, gen. Józefa Bema 126C)",
+    "state": "Nierozegrany",
+    "queue": 11,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c2af90cc-3064-46fd-8c3c-0bc943cbaaf4",
+    "dateTime": "2026-10-31T14:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "23a5a306-90fb-4ed1-ab49-a2775f74f969",
+    "dateTime": "2026-10-31T14:00:00",
+    "stadium": "Boisko MOSIR Rybnik (Rybnik, Cystersów 34)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "32df0adf-15d4-4eb8-afb7-9ef5419ec9bd",
+    "dateTime": "2026-10-31T14:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "71094d4a-4e87-43b4-85c3-ff06f934c5f0",
+    "dateTime": "2026-10-31T14:00:00",
+    "stadium": "Klub Sportowy \"POLONIA\" Niewiadom w Rybniku (Rybnik, Sportowa 88)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "fc3cc22e-defc-4179-a198-9d898720244e",
+    "dateTime": "2026-10-31T14:00:00",
+    "stadium": "Wielopole Stadion (Rybnik, Podleśna 21)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "14b46239-c2e6-4e70-b4f0-23ff7c4dcac9",
+    "dateTime": "2026-10-31T14:00:00",
+    "stadium": "KS RYMER RYBNIK (Rybnik, Górnośląska 46)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "880dcbfb-4267-409c-9054-5ddf303c267a",
+    "dateTime": "2026-10-31T13:00:00",
+    "stadium": "EMMA PLAC RADLIN (Radlin, Mariacka 186)",
+    "state": "Nierozegrany",
+    "queue": 10,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "b9d18601-779f-4ef8-abcd-d7d053ce82d9",
+    "dateTime": "2026-10-25T15:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "3c2b9953-78e6-4d84-bf32-d51c1d3fd23d",
+    "dateTime": "2026-10-25T15:00:00",
+    "stadium": "Boisko w Dębieńsku (Czerwionka-Leszczyny, Bełkowska 1c)",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "41b20ef2-20d6-4a63-a08f-f4e2bd009607",
+    "dateTime": "2026-10-25T15:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "266911f7-f3b6-4f11-9919-ae3e006bef74",
+    "dateTime": "2026-10-25T15:00:00",
+    "stadium": "Boisko piłkarskie (Rybnik, Łączna 55)",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "8cd81cff-32e9-41ef-bc1c-881a63c91556",
+    "dateTime": "2026-10-25T15:00:00",
+    "stadium": "INTER KROSTOSZOWICE (Krostoszowice, Szybowa 20)",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "74b9c2b8-252f-47f3-b709-38e132ac4b3d",
+    "dateTime": "2026-10-25T11:00:00",
+    "stadium": "Hotelowa 72 , 44-213 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "389c8d27-60d0-42e7-8ca7-cd3a10051189",
+    "dateTime": "2026-10-24T15:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Nierozegrany",
+    "queue": 9,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "60c7b15b-9d06-4d01-b49b-90c6803614d5",
+    "dateTime": "2026-10-18T15:00:00",
+    "stadium": "Boisko Rybnik-Kamień (Rybnik, Hotelowa 72)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "3606f9b0-c12c-432e-9340-83e9df79fec2",
+    "dateTime": "2026-10-18T15:00:00",
+    "stadium": "Boisko MOSIR Rybnik (Rybnik, Cystersów 34)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "afa89d71-67a0-4f0f-80f2-1b303bcc12a9",
+    "dateTime": "2026-10-18T15:00:00",
+    "stadium": "Wielopole Stadion (Rybnik, Podleśna 21)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c26457e0-a4e0-4eda-abe2-0c985d02c79a",
+    "dateTime": "2026-10-18T12:00:00",
+    "stadium": "EMMA PLAC RADLIN (Radlin, Mariacka 186)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "489f6cb8-c7f5-4d9d-9ce8-b19f7d35b8be",
+    "dateTime": "2026-10-17T15:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c688faf3-07c7-4d96-9bc4-aa4d29f619fa",
+    "dateTime": "2026-10-17T15:00:00",
+    "stadium": "Klub Sportowy \"POLONIA\" Niewiadom w Rybniku (Rybnik, Sportowa 88)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "a34b6a57-b9b0-4435-b841-ce94853f2744",
+    "dateTime": "2026-10-17T13:30:00",
+    "stadium": "STADION MIEJSKI \"NAPRZÓD\" IM. ALOJZEGO MUSIOŁA (Rydułtowy, gen. Józefa Bema 126C)",
+    "state": "Nierozegrany",
+    "queue": 8,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "a487fe7f-4d5a-4b5b-81a7-df3ae1f3046e",
+    "dateTime": "2026-10-11T15:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "65ccbfe1-3bfb-49c9-9556-baa0f69ead61",
+    "dateTime": "2026-10-11T15:00:00",
+    "stadium": "KS RYMER RYBNIK (Rybnik, Górnośląska 46)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "f3767a35-50b6-4691-bd7a-f1d8167dc1be",
+    "dateTime": "2026-10-11T15:00:00",
+    "stadium": "Boisko w Dębieńsku (Czerwionka-Leszczyny, Bełkowska 1c)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "2db0f642-1f52-40b6-bc03-8616fe2253bf",
+    "dateTime": "2026-10-11T15:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "5eaedfa8-be2e-4035-b498-3b0943d28d82",
+    "dateTime": "2026-10-11T15:00:00",
+    "stadium": "Boisko piłkarskie (Rybnik, Łączna 55)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "d316f6f0-902b-4d60-b9fd-013f52b8c012",
+    "dateTime": "2026-10-11T15:00:00",
+    "stadium": "INTER KROSTOSZOWICE (Krostoszowice, Szybowa 20)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "90e8f198-9303-47cc-ba60-feceedb09919",
+    "dateTime": "2026-10-10T15:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Nierozegrany",
+    "queue": 7,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "18b7feb4-a832-4f2c-bc50-0a77c9698f19",
+    "dateTime": "2026-10-04T15:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "f14b9e19-f2a4-4ff5-89f3-f5034ae43cd0",
+    "dateTime": "2026-10-04T15:00:00",
+    "stadium": "Boisko MOSIR Rybnik (Rybnik, Cystersów 34)",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "447e1bfd-9ee9-4e44-9435-349e8b53e215",
+    "dateTime": "2026-10-04T12:00:00",
+    "stadium": "EMMA PLAC RADLIN (Radlin, Mariacka 186)",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "de8a4d38-7bfd-4899-a9e0-8ef2708c59c4",
+    "dateTime": "2026-10-04T11:00:00",
+    "stadium": "STADION MIEJSKI \"NAPRZÓD\" IM. ALOJZEGO MUSIOŁA (Rydułtowy, gen. Józefa Bema 126C)",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "efe48084-20af-4a30-9301-66acb1d439d8",
+    "dateTime": "2026-10-03T17:00:00",
+    "stadium": "Hotelowa 72 , 44-213 Rybnik",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "ae72ea20-9dce-4ded-814b-e4e349c8b1fe",
+    "dateTime": "2026-10-03T15:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "c75e4108-f07a-40db-9172-f92310e9bd71",
+    "dateTime": "2026-10-03T15:00:00",
+    "stadium": "Klub Sportowy \"POLONIA\" Niewiadom w Rybniku (Rybnik, Sportowa 88)",
+    "state": "Nierozegrany",
+    "queue": 6,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "1cce0fb0-cca0-48c6-8303-78fac9959d15",
+    "dateTime": "2026-09-27T16:00:00",
+    "stadium": "Wielopole Stadion (Rybnik, Podleśna 21)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:2",
+      "half": "1:2",
+      "fullTime": "3:2"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "5b137899-fc0d-429d-9bfc-7cbf90e1c9ca",
+    "dateTime": "2026-09-27T16:00:00",
+    "stadium": "KS RYMER RYBNIK (Rybnik, Górnośląska 46)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "9:0",
+      "half": "3:0",
+      "fullTime": "9:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "f1bc9e1b-6426-4d7b-b3b0-5ea05ea2256c",
+    "dateTime": "2026-09-27T16:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "6:0",
+      "half": "4:0",
+      "fullTime": "6:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "1214b2f4-9e41-405a-81f8-e19aa01de4df",
+    "dateTime": "2026-09-27T16:00:00",
+    "stadium": "Boisko piłkarskie (Rybnik, Łączna 55)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:1",
+      "half": "2:1",
+      "fullTime": "3:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "22b703c6-6907-4e64-9e27-7a411f40e675",
+    "dateTime": "2026-09-26T16:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "5:3",
+      "half": "5:1",
+      "fullTime": "5:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "dc31dd8d-1e50-450c-b3e6-d4318dbcf6be",
+    "dateTime": "2026-09-26T16:00:00",
+    "stadium": "Boisko w Dębieńsku (Czerwionka-Leszczyny, Bełkowska 1c)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "0:2",
+      "half": "0:0",
+      "fullTime": "0:2"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "4ba2bc62-5a14-48b3-af80-4cb4235e2685",
+    "dateTime": "2026-09-26T15:00:00",
+    "stadium": "EMMA PLAC  (Radlin, Odległa 140)",
+    "state": "Rozegrany",
+    "queue": 5,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "10:2",
+      "half": "4:0",
+      "fullTime": "10:2"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "b98d033d-384c-4508-a6aa-f23540e094b9",
+    "dateTime": "2026-09-20T16:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "0:2",
+      "half": "0:2",
+      "fullTime": "0:2"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "4b06f95d-0639-4aaf-9096-1c9b1201313f",
+    "dateTime": "2026-09-20T16:00:00",
+    "stadium": "INTER KROSTOSZOWICE (Krostoszowice, Szybowa 20)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "4:5",
+      "half": "1:2",
+      "fullTime": "4:5"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "f8edf0c4-7f92-431a-830f-6480f193da48",
+    "dateTime": "2026-09-20T16:00:00",
+    "stadium": "Boisko MOSIR Rybnik (Rybnik, Cystersów 34)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "5:12",
+      "half": "1:5",
+      "fullTime": "5:12"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "dd59c0b3-9e84-4816-a453-e89d3270df1d",
+    "dateTime": "2026-09-20T14:00:00",
+    "stadium": "Hotelowa 72 , 44-213 Rybnik",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:0",
+      "half": "0:0",
+      "fullTime": "1:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "1d9d13b7-1563-4dc9-b2f2-aa3c57e98c3a",
+    "dateTime": "2026-09-20T11:00:00",
+    "stadium": "STADION MIEJSKI \"NAPRZÓD\" IM. ALOJZEGO MUSIOŁA (Rydułtowy, gen. Józefa Bema 126C)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:3",
+      "half": "1:2",
+      "fullTime": "1:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "ea2952b2-9f43-4898-968b-91d14a9e4591",
+    "dateTime": "2026-09-19T16:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:3",
+      "half": "0:3",
+      "fullTime": "1:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "2034d302-9424-4135-942a-45b8f7a40261",
+    "dateTime": "2026-09-19T16:00:00",
+    "stadium": "Stadion im. A. Frydeckiego w Rybniku (Rybnik, 1 Maja 104)",
+    "state": "Rozegrany",
+    "queue": 4,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:0",
+      "half": "1:0",
+      "fullTime": "3:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "11ddca3b-14a4-4967-bc38-d08a0c47b858",
+    "dateTime": "2026-09-13T16:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna 44)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "5:1",
+      "half": "0:0",
+      "fullTime": "5:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "2da0caf9-edbf-4a01-bad3-c9bb9f025790",
+    "dateTime": "2026-09-13T16:00:00",
+    "stadium": "Wielopole Stadion (Rybnik, Podleśna 21)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "5:2",
+      "half": "3:1",
+      "fullTime": "5:2"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "fa2a3975-abe5-496c-a2a6-614698c64137",
+    "dateTime": "2026-09-13T16:00:00",
+    "stadium": "Klub Sportowy Rymer Rybnik (Rybnik, Gliwicka 72)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:6",
+      "half": "0:3",
+      "fullTime": "1:6"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "f8e4ac03-5747-457c-b86b-d795d4b30b17",
+    "dateTime": "2026-09-13T16:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:1",
+      "half": "1:1",
+      "fullTime": "2:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "4d4b6903-f49b-425b-a6dc-1d8f2d3ad1cf",
+    "dateTime": "2026-09-13T16:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:1",
+      "half": "0:0",
+      "fullTime": "2:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "e9aeceac-f720-4cc9-a565-1b95afb140a2",
+    "dateTime": "2026-09-13T12:00:00",
+    "stadium": "EMMA PLAC RADLIN (Radlin, Mariacka 186)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "7:1",
+      "half": "2:0",
+      "fullTime": "7:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "dd041c16-8af0-4380-8872-004f1409d72a",
+    "dateTime": "2026-09-12T16:00:00",
+    "stadium": "Boisko w Dębieńsku (Czerwionka-Leszczyny, Bełkowska 1c)",
+    "state": "Rozegrany",
+    "queue": 3,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:1",
+      "half": "0:0",
+      "fullTime": "1:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "c6734cce-0774-407d-8f09-a4d6194b7df2",
+    "dateTime": "2026-09-06T16:00:00",
+    "stadium": "LKS Unia Książenice (Książenice, Słoneczna)",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:3",
+      "half": "0:2",
+      "fullTime": "1:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "3c9a0c14-451d-4a36-b3fa-72d492f2c9e0",
+    "dateTime": "2026-09-06T16:00:00",
+    "stadium": "INTER KROSTOSZOWICE (Krostoszowice, Szybowa 20)",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "6:0",
+      "half": "2:0",
+      "fullTime": "6:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "088e30e5-5cc1-4ced-b933-0574241f26e0",
+    "dateTime": "2026-09-06T14:00:00",
+    "stadium": "Hotelowa 72 , 44-213 Rybnik",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:6",
+      "half": "0:0",
+      "fullTime": "2:6"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "83708bbd-a307-4585-8438-e7c1cba4395f",
+    "dateTime": "2026-09-06T11:00:00",
+    "stadium": "STADION MIEJSKI \"NAPRZÓD\" IM. ALOJZEGO MUSIOŁA (Rydułtowy, gen. Józefa Bema 126C)",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "5:3",
+      "half": "3:2",
+      "fullTime": "5:3"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "9e80030e-cdae-4b13-aad2-3dce1d2ce630",
+    "dateTime": "2026-09-06T11:00:00",
+    "stadium": "Boisko MOSIR Rybnik (Rybnik, Cystersów 34)",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:6",
+      "half": "1:4",
+      "fullTime": "2:6"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "7309f0c2-1e65-4f61-8c43-8c45279668d1",
+    "dateTime": "2026-09-05T16:00:00",
+    "stadium": "Boisko piłkarskie (Rybnik, Łączna 55)",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:0",
+      "half": "1:0",
+      "fullTime": "3:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "a2bc5d9a-d948-474e-8ee3-433f529757a5",
+    "dateTime": "2026-09-05T16:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Rozegrany",
+    "queue": 2,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "8:1",
+      "half": "4:1",
+      "fullTime": "8:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "fc887ec3-17cb-48a3-8e7b-7bf834d4a60e",
+    "dateTime": "2026-11-22T15:00:00",
+    "stadium": "Wielopole Stadion (Rybnik, Podleśna 21)",
+    "state": "Nierozegrany",
+    "queue": 1,
+    "canDateTimeChange": true,
+    "host": {
+      "id": "8d9d1ab5-5d0d-4b6a-9ef3-836bbaedcfc2",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/f/e/634338f67bb6c3e5e07fdef3__w64",
+      "name": "KS WIELOPOLE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "61610bfc-8976-4cd6-8247-d083ca0444b0",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/6/6/d/6a955d6ca893e47ddc150d66__w64",
+      "name": "KS AMANIS RYBNIK",
+      "abbreviation": ""
+    },
+    "scores": {},
+    "transmissions": []
+  },
+  {
+    "matchId": "6a2e1414-d653-4f58-9b3f-0da76bef4fb1",
+    "dateTime": "2026-08-30T17:00:00",
+    "stadium": "Klub Sportowy Rymer Rybnik (Rybnik, Gliwicka 72)",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "8b49a9e2-1489-4d35-95aa-6742149e06fc",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/f/9/68a0de09a893e47ddc14b9fe__w64",
+      "name": "KS RYMER RYBNIK II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "684c5754-e88a-4821-9036-ec4c9a173534",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/f/1/61275b36eeb389649d4aa1f0__w64",
+      "name": "KS INTER KROSTOSZOWICE II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "1:6",
+      "half": "0:3",
+      "fullTime": "1:6"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "2f72552e-cd9a-467a-aebc-24fd188d209b",
+    "dateTime": "2026-08-30T17:00:00",
+    "stadium": "GKS PIERWSZY CHWAŁOWICE (Rybnik, 1 Maja 104)",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "633937c4-aaf7-4dc7-ac29-97f36886ae2d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/4/4/8/642098caa893e47ddc068844__w64",
+      "name": "GKS PIERWSZY CHWAŁOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a640ceb9-2a12-402f-ba73-7f64456dd9b6",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/c/8/f/671b2edca893e47ddc083f8c__w64",
+      "name": "KRS TKKF ZUCH ORZEPOWICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "2:1",
+      "half": "1:1",
+      "fullTime": "2:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "10d3498b-a671-4481-b8af-3625bbb73c7f",
+    "dateTime": "2026-08-30T12:00:00",
+    "stadium": "EMMA PLAC RADLIN (Radlin, Mariacka 186)",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "f2d19c24-b939-4ce0-b8cf-2b048488f030",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/e/3/5/6321a90392382fb95583a53e__w64",
+      "name": "KS GÓRNIK RADLIN II",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "a4470d70-e4c9-462d-abbb-2c1431942243",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/3/2/7/6891f041a893e47ddc14b723__w64",
+      "name": "GKS NAPRZÓD-23 RYDUŁTOWY II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "6:4",
+      "half": "3:1",
+      "fullTime": "6:4"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "d740f554-a190-4ce2-82ee-da453488a57d",
+    "dateTime": "2026-08-29T17:00:00",
+    "stadium": "Boisko RKP (Rybnik, Gliwicka 72b)",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "58f17929-b215-4425-bc51-cac586e1130d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/1/3/8/6300a24492382fb955839831__w64",
+      "name": "KS POLONIA NIEWIADOM",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "c4b5816a-768d-4406-9c12-94fdbca3af0e",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/0/9/d/67e6af60a893e47ddc088d90__w64",
+      "name": "LKS PŁOMIEŃ OCHOJEC II",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "4:1",
+      "half": "1:0",
+      "fullTime": "4:1"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "9e098c60-3889-4197-9a7d-33e02463491b",
+    "dateTime": "2026-08-29T17:00:00",
+    "stadium": "KS Sygnały Gotartowice (Rybnik, Sygnały 62)",
+    "state": "Rozegrany",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "3ae536e4-e1ec-4db2-80a1-0b35b05b5e8d",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/a/c/b/677e7882a893e47ddc085bca__w64",
+      "name": "KS SYGNAŁY GOTARTOWICE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "df3f6ab6-af8d-4e20-886d-ec5ff195d818",
+      "name": "LKS DĄB DĘBIEŃSKO",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "4:0",
+      "half": "0:0",
+      "fullTime": "4:0"
+    },
+    "transmissions": []
+  },
+  {
+    "matchId": "91498491-88e6-4e37-993e-90961a026a0d",
+    "dateTime": "2026-08-29T15:00:00",
+    "stadium": "BOISKO LKS GÓRKI ŚLĄSKIE  (Górki Śląskie, Ofiar Oświęcimskich 2)",
+    "state": "Walkover",
+    "queue": 1,
+    "canDateTimeChange": false,
+    "host": {
+      "id": "ee02a0e3-9572-4962-ae13-2c49d98a8056",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/9/c/c/630d04e392382fb955839cc9__w64",
+      "name": "LKS GÓRKI ŚLĄSKIE",
+      "abbreviation": ""
+    },
+    "guest": {
+      "id": "7a6c5889-3a24-44f4-932b-530a38cf7168",
+      "logo": "https://cdn.laczynaspilka.pl/content/static/pz/images/7/3/b/64e0cb3fa893e47ddc06ab37__w64",
+      "name": "LKS UNIA KSIĄŻENICE",
+      "abbreviation": ""
+    },
+    "scores": {
+      "final": "3:0",
+      "half": "1:0",
+      "fullTime": "3:0"
+    },
+    "transmissions": []
+  }
+]
