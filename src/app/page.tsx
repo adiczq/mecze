@@ -98,24 +98,24 @@ export default async function Home() {
           </div>
         </section>
 
-        <section className="mt-6 grid grid-cols-3 gap-2 sm:gap-4">
+        <section className="mt-6 grid grid-cols-2 gap-3 min-[430px]:grid-cols-3 sm:gap-4">
           {teams.map((team) => (
             <Link
               key={team.slug}
               href={`/${team.slug}`}
-              className="team-tile group rounded-2xl px-3 py-4 text-center sm:px-5 sm:py-5"
+              className="team-tile flex h-[114px] min-w-0 flex-col justify-between rounded-2xl border border-slate-200 bg-white p-4"
             >
-              <p className="text-sm font-black text-slate-900 sm:text-lg">
+              <h3 className="text-[17px] font-bold leading-tight text-slate-900 sm:text-lg">
                 {team.name}
-              </p>
+              </h3>
 
-              <p className="mt-1 text-[10px] uppercase tracking-[0.16em] text-slate-400 sm:text-xs">
-                Terminarz
-              </p>
+              <div className="flex items-center justify-between">
+                <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-blue-600">
+                  Terminarz
+                </span>
 
-              <p className="mt-2 hidden text-xs text-slate-500 sm:block">
-                {team.description}
-              </p>
+                <span className="text-lg text-blue-600">→</span>
+              </div>
             </Link>
           ))}
         </section>
