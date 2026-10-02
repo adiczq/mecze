@@ -110,11 +110,11 @@ export default async function Home() {
               </h3>
 
               <div className="flex items-center justify-between">
-                <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-blue-600">
+                <span className="text-[11px] font-bold uppercase tracking-[0.16em] text-yellow-600">
                   Terminarz
                 </span>
 
-                <span className="text-lg text-blue-600">→</span>
+                <span className="text-lg text-yellow-600">→</span>
               </div>
             </Link>
           ))}
