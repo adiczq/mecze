@@ -1,6 +1,6 @@
 import Link from "next/link";
 import MatchList from "@/components/MatchList";
-import { getTeamMatches } from "@/lib/laczynaspilka";
+import { getTeamScheduleData } from "@/lib/laczynaspilka";
 import { teamConfig, type TeamKey } from "@/lib/teams";
 
 type TeamSchedulePageProps = {
@@ -20,9 +20,8 @@ function formatLastUpdate(date: Date) {
 export default async function TeamSchedulePage({
   teamKey,
 }: TeamSchedulePageProps) {
-  const matches = await getTeamMatches(teamKey);
+  const { matches, updatedAt } = await getTeamScheduleData(teamKey);
   const team = teamConfig[teamKey];
-  const lastUpdate = new Date();
 
   return (
     <main className="page-shell">
@@ -42,10 +41,14 @@ export default async function TeamSchedulePage({
         <h1 className="mt-2 text-4xl font-black text-slate-900">{team.name}</h1>
 
         <p className="muted mt-3">Najbliższe mecze drużyny.</p>
-        <p className="mt-2 flex items-center gap-2 text-xs text-slate-400">
-          <span>↻</span>
-          <span>Ostatnia aktualizacja: {formatLastUpdate(lastUpdate)}</span>
-        </p>
+
+        {updatedAt && (
+          <p className="mt-2 flex items-center gap-2 text-xs text-slate-400">
+            <span>↻</span>
+            <span>Ostatnia aktualizacja: {formatLastUpdate(updatedAt)}</span>
+          </p>
+        )}
+
         <div className="mt-8">
           <MatchList matches={matches} />
         </div>

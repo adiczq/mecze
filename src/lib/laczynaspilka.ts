@@ -25,6 +25,11 @@ const fallbackMatches: Record<TeamKey, Match[]> = {
   seniorzyII: seniorzyIIMatches,
 };
 
+export type TeamMatchesResult = {
+  matches: Match[];
+  updatedAt: Date | null;
+};
+
 export function getFallbackMatches(team: TeamKey): Match[] {
   return fallbackMatches[team];
 }
@@ -80,12 +85,15 @@ function prepareApiMatches(matches: ApiMatch[]): Match[] {
     .map(mapApiMatchToMatch);
 }
 
-async function fetchPzpnMatches(team: TeamKey): Promise<Match[]> {
+async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
   const config = teamConfig[team];
   const proxySecret = process.env.PROXY_SECRET;
 
   if (!config.playId || !proxySecret) {
-    return [];
+    return {
+      matches: [],
+      updatedAt: null,
+    };
   }
 
   const response = await fetch(
@@ -108,29 +116,51 @@ async function fetchPzpnMatches(team: TeamKey): Promise<Match[]> {
 
   const data = (await response.json()) as ApiMatch[];
 
-  return prepareApiMatches(data);
+  const updatedAtHeader = response.headers.get("x-data-updated-at");
+
+  return {
+    matches: prepareApiMatches(data),
+    updatedAt: updatedAtHeader ? new Date(updatedAtHeader) : null,
+  };
 }
 
-export async function getTeamMatches(team: TeamKey): Promise<Match[]> {
+export async function getTeamScheduleData(
+  team: TeamKey
+): Promise<TeamMatchesResult> {
   const config = teamConfig[team];
 
   if (!config.playId) {
-    return getFallbackMatches(team);
+    return {
+      matches: getFallbackMatches(team),
+      updatedAt: null,
+    };
   }
 
   try {
-    const matches = await fetchPzpnMatches(team);
+    const result = await fetchPzpnMatches(team);
 
-    if (matches.length === 0) {
-      return getFallbackMatches(team);
+    if (result.matches.length === 0) {
+      return {
+        matches: getFallbackMatches(team),
+        updatedAt: null,
+      };
     }
 
-    return matches;
+    return result;
   } catch (error) {
     console.error(`Błąd pobierania meczów dla ${team}:`, error);
 
-    return getFallbackMatches(team);
+    return {
+      matches: getFallbackMatches(team),
+      updatedAt: null,
+    };
   }
+}
+
+export async function getTeamMatches(team: TeamKey): Promise<Match[]> {
+  const result = await getTeamScheduleData(team);
+
+  return result.matches;
 }
 
 export async function testPzpnConnection() {
