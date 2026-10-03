@@ -73,15 +73,33 @@ function isGornikMatch(match: ApiMatch) {
   return homeTeam.includes(CLUB_NAME) || awayTeam.includes(CLUB_NAME);
 }
 
+function getWarsawNowString() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Warsaw",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(new Date());
+
+  const get = (type: Intl.DateTimeFormatPartTypes) =>
+    parts.find((part) => part.type === type)?.value ?? "";
+
+  return `${get("year")}-${get("month")}-${get("day")}T${get("hour")}:${get(
+    "minute"
+  )}:${get("second")}`;
+}
+
 function prepareApiMatches(matches: ApiMatch[]): Match[] {
-  const now = new Date();
+  const nowWarsaw = getWarsawNowString();
 
   return matches
     .filter(isGornikMatch)
-    .filter((match) => new Date(match.dateTime) >= now)
-    .sort(
-      (a, b) => new Date(a.dateTime).getTime() - new Date(b.dateTime).getTime()
-    )
+    .filter((match) => match.dateTime >= nowWarsaw)
+    .sort((a, b) => a.dateTime.localeCompare(b.dateTime))
     .map(mapApiMatchToMatch);
 }
 
