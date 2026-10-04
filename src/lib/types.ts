@@ -7,4 +7,6 @@ export type Match = {
   venue?: string;
   round?: string;
   source?: string;
+  score?: string;
+  played?: boolean;
 };

@@ -16,6 +16,7 @@ function formatMatchDate(date: string) {
 
 export default function MatchCard({ match, featured = false }: MatchCardProps) {
   const isHome = match.homeTeam.toUpperCase().includes("GÓRNIK RADLIN");
+  const isPlayed = match.played === true;
 
   return (
     <article
@@ -75,13 +76,15 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
           </div>
 
           <div
-            className={`mx-auto rounded-full border px-3 py-2 text-xs font-black ${
+            className={`mx-auto min-w-[56px] rounded-full border px-3 py-2 text-center text-xs font-black ${
               featured
-                ? "border-white/20 bg-white/10 text-white/70"
-                : "border-slate-200 bg-slate-50 text-slate-400"
+                ? "border-white/20 bg-white/10 text-white"
+                : isPlayed && match.score
+                  ? "border-blue-200 bg-blue-50 text-blue-700"
+                  : "border-slate-200 bg-slate-50 text-slate-400"
             }`}
           >
-            VS
+            {isPlayed && match.score ? match.score : "VS"}
           </div>
 
           <div className="text-center sm:text-left">
@@ -121,18 +124,20 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
               <span>{match.venue}</span>
             </a>
 
-            <a
-              href={getGoogleMapsUrl(match.venue)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`inline-flex w-fit items-center rounded-xl px-3.5 py-2 text-sm font-bold transition sm:px-4 ${
-                featured
-                  ? "bg-white text-blue-700 hover:bg-blue-50"
-                  : "bg-blue-600 text-white hover:bg-blue-700"
-              }`}
-            >
-              Nawiguj
-            </a>
+            {!isPlayed && (
+              <a
+                href={getGoogleMapsUrl(match.venue)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex w-fit items-center rounded-xl px-3.5 py-2 text-sm font-bold transition sm:px-4 ${
+                  featured
+                    ? "bg-white text-blue-700 hover:bg-blue-50"
+                    : "bg-blue-600 text-white hover:bg-blue-700"
+                }`}
+              >
+                Nawiguj
+              </a>
+            )}
           </div>
         </div>
       )}

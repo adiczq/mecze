@@ -21,7 +21,9 @@ function formatLastUpdate(date: Date) {
 export default async function TeamSchedulePage({
   teamKey,
 }: TeamSchedulePageProps) {
-  const { matches, updatedAt } = await getTeamScheduleData(teamKey);
+  const { matches, playedMatches, updatedAt } =
+    await getTeamScheduleData(teamKey);
+
   const team = teamConfig[teamKey];
 
   return (
@@ -41,7 +43,7 @@ export default async function TeamSchedulePage({
 
         <h1 className="mt-2 text-4xl font-black text-slate-900">{team.name}</h1>
 
-        <p className="muted mt-3">Najbliższe mecze drużyny.</p>
+        <p className="muted mt-3">Terminarz i wyniki drużyny.</p>
 
         {updatedAt && (
           <p className="mt-2 flex items-center gap-2 text-xs text-slate-400">
@@ -51,7 +53,7 @@ export default async function TeamSchedulePage({
         )}
 
         <div className="mt-8">
-          <MatchList matches={matches} />
+          <MatchList matches={matches} playedMatches={playedMatches} />
         </div>
       </div>
     </main>

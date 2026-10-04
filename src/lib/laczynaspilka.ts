@@ -27,6 +27,7 @@ const fallbackMatches: Record<TeamKey, Match[]> = {
 
 export type TeamMatchesResult = {
   matches: Match[];
+  playedMatches: Match[];
   updatedAt: Date | null;
 };
 
@@ -47,6 +48,11 @@ type ApiMatch = {
   queue?: number;
   host: ApiTeam;
   guest: ApiTeam;
+  scores?: {
+    final?: string;
+    half?: string;
+    fullTime?: string;
+  };
 };
 
 function mapApiMatchToMatch(match: ApiMatch): Match {
@@ -56,11 +62,13 @@ function mapApiMatchToMatch(match: ApiMatch): Match {
     id: match.matchId,
     date,
     time: timePart?.slice(0, 5),
-    homeTeam: match.host.name,
-    awayTeam: match.guest.name,
+    homeTeam: match.host.name.trim(),
+    awayTeam: match.guest.name.trim(),
     venue: match.stadium?.trim() || undefined,
     round: match.queue !== undefined ? `Kolejka ${match.queue}` : undefined,
     source: "PZPN",
+    score: match.scores?.final || match.scores?.fullTime || undefined,
+    played: match.state === "Rozegrany",
   };
 }
 
@@ -88,9 +96,9 @@ function getWarsawNowString() {
   const get = (type: Intl.DateTimeFormatPartTypes) =>
     parts.find((part) => part.type === type)?.value ?? "";
 
-  return `${get("year")}-${get("month")}-${get("day")}T${get("hour")}:${get(
-    "minute"
-  )}:${get("second")}`;
+  return `${get("year")}-${get("month")}-${get("day")}T${get(
+    "hour"
+  )}:${get("minute")}:${get("second")}`;
 }
 
 function prepareApiMatches(matches: ApiMatch[]): Match[] {
@@ -103,6 +111,19 @@ function prepareApiMatches(matches: ApiMatch[]): Match[] {
     .map(mapApiMatchToMatch);
 }
 
+function preparePlayedMatches(matches: ApiMatch[]): Match[] {
+  const nowWarsaw = getWarsawNowString();
+
+  return matches
+    .filter(isGornikMatch)
+    .filter((match) => match.dateTime < nowWarsaw)
+    .sort((a, b) => b.dateTime.localeCompare(a.dateTime))
+    .map((match) => ({
+      ...mapApiMatchToMatch(match),
+      played: true,
+    }));
+}
+
 async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
   const config = teamConfig[team];
   const proxySecret = process.env.PROXY_SECRET;
@@ -110,6 +131,7 @@ async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
   if (!config.playId || !proxySecret) {
     return {
       matches: [],
+      playedMatches: [],
       updatedAt: null,
     };
   }
@@ -138,6 +160,7 @@ async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
 
   return {
     matches: prepareApiMatches(data),
+    playedMatches: preparePlayedMatches(data),
     updatedAt: updatedAtHeader ? new Date(updatedAtHeader) : null,
   };
 }
@@ -150,26 +173,30 @@ export async function getTeamScheduleData(
   if (!config.playId) {
     return {
       matches: getFallbackMatches(team),
+      playedMatches: [],
       updatedAt: null,
     };
   }
 
   try {
     const result = await fetchPzpnMatches(team);
-    console.log(`PZPN OK: ${team} - ${result.matches.length} meczów`);
-    if (result.matches.length === 0) {
-      return {
-        matches: getFallbackMatches(team),
-        updatedAt: null,
-      };
-    }
 
-    return result;
+    console.log(
+      `PZPN OK: ${team} - ${result.matches.length} przyszłych, ${result.playedMatches.length} rozegranych`
+    );
+
+    return {
+      matches:
+        result.matches.length > 0 ? result.matches : getFallbackMatches(team),
+      playedMatches: result.playedMatches,
+      updatedAt: result.updatedAt,
+    };
   } catch (error) {
     console.error(`Błąd pobierania meczów dla ${team}:`, error);
 
     return {
       matches: getFallbackMatches(team),
+      playedMatches: [],
       updatedAt: null,
     };
   }
