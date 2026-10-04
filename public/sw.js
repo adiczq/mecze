@@ -1,4 +1,4 @@
-const CACHE_NAME = "gornik-radlin-v1";
+const CACHE_NAME = "gornik-radlin-v2";
 
 const STATIC_ASSETS = [
   "/",
