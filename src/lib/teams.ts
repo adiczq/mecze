@@ -39,6 +39,7 @@ export const teamConfig = {
     teamId: "90f289d1-6264-4390-bb7c-5199afc7456a",
     order: 3,
   },
+
   orlik2017II: {
     name: "Orlik 2017 II",
     slug: "orlik-2017-ii",
@@ -56,7 +57,7 @@ export const teamConfig = {
     source: "Łączy Nas Piłka",
     playId: "d1ad72e4-035b-459a-ab4d-45bf28fa8176",
     teamId: "888f7138-35ac-47da-826b-8ed368a58ed0",
-    order: 4,
+    order: 5,
   },
 
   trampkarze2013: {
@@ -66,7 +67,7 @@ export const teamConfig = {
     source: "Łączy Nas Piłka",
     playId: "4af98b9d-c1d7-4035-8004-10b5b8bb7724",
     teamId: "19e16929-9281-4b94-be4a-30b36d873178",
-    order: 4,
+    order: 6,
   },
 
   junior2010: {
@@ -76,7 +77,7 @@ export const teamConfig = {
     source: "Łączy Nas Piłka",
     playId: "9cbb2f52-b187-4f56-8d49-a4f4ea51829c",
     teamId: "e9b91bb5-2d16-4daf-ad5e-3b80e8543ca2",
-    order: 5,
+    order: 7,
   },
 
   seniorzy: {
@@ -86,8 +87,9 @@ export const teamConfig = {
     source: "Łączy Nas Piłka",
     playId: "359dce4b-6ade-4766-af21-b26d473ca3d8",
     teamId: "b7c6e3a3-088b-4185-be3a-3f748a99b40c",
-    order: 6,
+    order: 8,
   },
+
   seniorzyII: {
     name: "Seniorzy II",
     slug: "seniorzy-ii",
