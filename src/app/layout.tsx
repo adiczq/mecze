@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
 import Footer from "@/components/Footer";
+import InAppBrowserNotice from "@/components/InAppBrowserNotice";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,6 +20,7 @@ export const metadata: Metadata = {
   description: "Terminarze wszystkich drużyn Górnika Radlin w jednym miejscu.",
   metadataBase: new URL("https://mecze.adiczq.dev"),
   manifest: "/manifest.webmanifest",
+
   openGraph: {
     title: "Górnik Radlin – Mecze",
     description:
@@ -54,6 +56,7 @@ export default function RootLayout({
   return (
     <html
       lang="pl"
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-dvh flex-col">
@@ -62,6 +65,8 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
 
         <Footer />
+
+        <InAppBrowserNotice />
       </body>
     </html>
   );
