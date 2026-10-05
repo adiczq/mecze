@@ -104,7 +104,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
         </div>
       </div>
 
-      {(match.venue || match.youtubeUrl) && (
+      {((!isPlayed && match.venue) || match.youtubeUrl) && (
         <div
           className={`border-t pt-4 pb-1 ${
             featured ? "border-white/15" : "border-slate-200"
@@ -112,7 +112,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
         >
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div>
-              {match.venue && (
+              {!isPlayed && match.venue && (
                 <a
                   href={getGoogleMapsUrl(match.venue)}
                   target="_blank"
