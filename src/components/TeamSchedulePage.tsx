@@ -2,6 +2,7 @@ import Link from "next/link";
 import MatchList from "@/components/MatchList";
 import { getTeamScheduleData } from "@/lib/laczynaspilka";
 import { teamConfig, type TeamKey } from "@/lib/teams";
+import { attachMatchVideos } from "@/lib/match-videos";
 
 type TeamSchedulePageProps = {
   teamKey: TeamKey;
@@ -23,6 +24,8 @@ export default async function TeamSchedulePage({
 }: TeamSchedulePageProps) {
   const { matches, playedMatches, updatedAt } =
     await getTeamScheduleData(teamKey);
+
+  const playedMatchesWithVideos = await attachMatchVideos(playedMatches);
 
   const team = teamConfig[teamKey];
 
@@ -53,7 +56,10 @@ export default async function TeamSchedulePage({
         )}
 
         <div className="mt-8">
-          <MatchList matches={matches} playedMatches={playedMatches} />
+          <MatchList
+            matches={matches}
+            playedMatches={playedMatchesWithVideos}
+          />
         </div>
       </div>
     </main>

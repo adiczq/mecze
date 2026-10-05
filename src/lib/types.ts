@@ -9,4 +9,5 @@ export type Match = {
   source?: string;
   score?: string;
   played?: boolean;
+  youtubeUrl?: string;
 };

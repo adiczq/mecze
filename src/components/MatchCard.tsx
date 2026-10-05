@@ -16,6 +16,7 @@ function formatMatchDate(date: string) {
 
 export default function MatchCard({ match, featured = false }: MatchCardProps) {
   const isHome = match.homeTeam.toUpperCase().includes("GÓRNIK RADLIN");
+
   const isPlayed = match.played === true;
 
   return (
@@ -103,41 +104,58 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
         </div>
       </div>
 
-      {match.venue && (
+      {(match.venue || match.youtubeUrl) && (
         <div
           className={`border-t pt-4 pb-1 ${
             featured ? "border-white/15" : "border-slate-200"
           }`}
         >
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-            <a
-              href={getGoogleMapsUrl(match.venue)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`inline-flex items-start gap-2 text-sm transition ${
-                featured
-                  ? "text-blue-100 hover:text-white"
-                  : "muted hover:text-blue-600"
-              }`}
-            >
-              <span>📍</span>
-              <span>{match.venue}</span>
-            </a>
+            <div>
+              {match.venue && (
+                <a
+                  href={getGoogleMapsUrl(match.venue)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`inline-flex items-start gap-2 text-sm transition ${
+                    featured
+                      ? "text-blue-100 hover:text-white"
+                      : "muted hover:text-blue-600"
+                  }`}
+                >
+                  <span>📍</span>
+                  <span>{match.venue}</span>
+                </a>
+              )}
+            </div>
 
-            {!isPlayed && (
-              <a
-                href={getGoogleMapsUrl(match.venue)}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={`inline-flex w-fit items-center rounded-xl px-3.5 py-2 text-sm font-bold transition sm:px-4 ${
-                  featured
-                    ? "bg-white text-blue-700 hover:bg-blue-50"
-                    : "bg-blue-600 text-white hover:bg-blue-700"
-                }`}
-              >
-                Nawiguj
-              </a>
-            )}
+            <div className="flex flex-wrap gap-2">
+              {match.youtubeUrl && (
+                <a
+                  href={match.youtubeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex w-fit items-center rounded-xl bg-red-600 px-4 py-2 text-sm font-bold text-white transition hover:bg-red-700"
+                >
+                  ▶ Obejrzyj mecz
+                </a>
+              )}
+
+              {!isPlayed && match.venue && (
+                <a
+                  href={getGoogleMapsUrl(match.venue)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`inline-flex w-fit items-center rounded-xl px-3.5 py-2 text-sm font-bold transition sm:px-4 ${
+                    featured
+                      ? "bg-white text-blue-700 hover:bg-blue-50"
+                      : "bg-blue-600 text-white hover:bg-blue-700"
+                  }`}
+                >
+                  Nawiguj
+                </a>
+              )}
+            </div>
           </div>
         </div>
       )}
