@@ -7,29 +7,7 @@ import {
   type TeamKey,
 } from "@/lib/seasons";
 
-import zakiMatches from "@/data/zaki.json";
-import trampkarzeMatches from "@/data/trampkarze.json";
-import seniorzyMatches from "@/data/seniorzy.json";
-import zaki2018Matches from "@/data/zaki-2018.json";
-import orlik2017Matches from "@/data/orlik-2017.json";
-import junior2010Matches from "@/data/junior-2010.json";
-import orlik2016Matches from "@/data/orlik-2016.json";
-import orlik2017IIMatches from "@/data/orlik-2017-ii.json";
-import seniorzyIIMatches from "@/data/seniorzy-ii.json";
-
 const PROXY_URL = process.env.PZPN_PROXY_URL || "https://proxy.adiczq.dev";
-
-const fallbackMatches: Record<TeamKey, Match[]> = {
-  zaki2019: zakiMatches,
-  zaki2018: zaki2018Matches,
-  orlik2017: orlik2017Matches,
-  orlik2017II: orlik2017IIMatches,
-  orlik2016: orlik2016Matches,
-  trampkarze2013: trampkarzeMatches,
-  junior2010: junior2010Matches,
-  seniorzy: seniorzyMatches,
-  seniorzyII: seniorzyIIMatches,
-};
 
 export type TeamMatchesResult = {
   matches: Match[];
@@ -45,10 +23,6 @@ export type ArchiveCompetitionMatches = {
 export type ArchiveCompetitionsResult = {
   competitions: ArchiveCompetitionMatches[];
 };
-
-export function getFallbackMatches(team: TeamKey): Match[] {
-  return fallbackMatches[team];
-}
 
 export type LeagueTableRow = {
   index: number;
@@ -436,7 +410,7 @@ export async function getTeamScheduleData(
 
   if (!seasonTeam) {
     return {
-      matches: getFallbackMatches(team),
+      matches: [],
       playedMatches: [],
       updatedAt: null,
     };
@@ -449,19 +423,12 @@ export async function getTeamScheduleData(
       `PZPN OK: ${team} - ${result.matches.length} przyszłych, ${result.playedMatches.length} rozegranych`
     );
 
-    return {
-      matches:
-        result.matches.length > 0 ? result.matches : getFallbackMatches(team),
-
-      playedMatches: result.playedMatches,
-
-      updatedAt: result.updatedAt,
-    };
+    return result;
   } catch (error) {
     console.error(`Błąd pobierania meczów dla ${team}:`, error);
 
     return {
-      matches: getFallbackMatches(team),
+      matches: [],
       playedMatches: [],
       updatedAt: null,
     };
