@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+
 import { isAdminAuthenticated } from "@/lib/admin-auth";
 import { deleteMatchVideo, setMatchVideo } from "@/lib/match-videos";
 
@@ -22,7 +23,7 @@ export async function POST(request: Request) {
   const authenticated = await isAdminAuthenticated();
 
   if (!authenticated) {
-    return NextResponse.redirect(new URL("/admin/login", request.url), 303);
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const formData = await request.formData();
@@ -38,23 +39,23 @@ export async function POST(request: Request) {
   if (!youtubeUrl) {
     await deleteMatchVideo(matchId);
 
-    const url = new URL("/admin", request.url);
-    url.searchParams.set("saved", "1");
-
-    return NextResponse.redirect(url, 303);
+    return NextResponse.json({
+      ok: true,
+      youtubeUrl: "",
+    });
   }
 
   if (!isValidYoutubeUrl(youtubeUrl)) {
-    const url = new URL("/admin", request.url);
-    url.searchParams.set("error", "youtube");
-
-    return NextResponse.redirect(url, 303);
+    return NextResponse.json(
+      { error: "Podaj prawidłowy link do YouTube." },
+      { status: 400 }
+    );
   }
 
   await setMatchVideo(matchId, youtubeUrl);
 
-  const url = new URL("/admin", request.url);
-  url.searchParams.set("saved", "1");
-
-  return NextResponse.redirect(url, 303);
+  return NextResponse.json({
+    ok: true,
+    youtubeUrl,
+  });
 }

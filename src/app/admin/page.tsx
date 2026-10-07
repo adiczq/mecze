@@ -1,24 +1,40 @@
 import { redirect } from "next/navigation";
 
-import { isAdminAuthenticated } from "@/lib/admin-auth";
-import { getTeamScheduleData } from "@/lib/laczynaspilka";
-import { attachMatchVideos } from "@/lib/match-videos";
-import { teamConfig, teamKeys, type TeamKey } from "@/lib/teams";
-import type { Match } from "@/lib/types";
 import AdminMatchList from "@/components/AdminMatchList";
+
+import { isAdminAuthenticated } from "@/lib/admin-auth";
+import {
+  getArchiveTeamCompetitionMatches,
+  getTeamScheduleData,
+} from "@/lib/laczynaspilka";
+import { attachMatchVideos } from "@/lib/match-videos";
+import { allSeasons, CURRENT_SEASON } from "@/lib/seasons";
+import type { TeamKey } from "@/lib/teams";
+import type { Match } from "@/lib/types";
 
 type AdminPageProps = {
   searchParams: Promise<{
+    season?: string;
+    team?: string;
     saved?: string;
     error?: string;
   }>;
 };
 
 type AdminMatch = {
-  teamKey: TeamKey;
+  teamId: string;
   teamName: string;
   match: Match;
 };
+
+function sortSeasons(seasons: string[]) {
+  return [...seasons].sort((a, b) => {
+    const aYear = Number(a.split("/")[0]);
+    const bYear = Number(b.split("/")[0]);
+
+    return bYear - aYear;
+  });
+}
 
 export default async function AdminPage({ searchParams }: AdminPageProps) {
   const authenticated = await isAdminAuthenticated();
@@ -29,27 +45,61 @@ export default async function AdminPage({ searchParams }: AdminPageProps) {
 
   const params = await searchParams;
 
-  const teamResults = await Promise.all(
-    teamKeys.map(async (teamKey) => {
-      const data = await getTeamScheduleData(teamKey);
+  const selectedSeason =
+    params.season && allSeasons[params.season] ? params.season : CURRENT_SEASON;
 
-      const playedMatches = await attachMatchVideos(data.playedMatches);
+  const seasonData = allSeasons[selectedSeason];
 
-      return playedMatches.map((match) => ({
-        teamKey,
-        teamName: teamConfig[teamKey].name,
-        match,
-      }));
-    })
-  );
+  let matches: AdminMatch[] = [];
 
-  const matches: AdminMatch[] = teamResults.flat().sort((a, b) => {
+  if (selectedSeason === CURRENT_SEASON) {
+    const teamResults = await Promise.all(
+      seasonData.teams.map(async (team) => {
+        const data = await getTeamScheduleData(team.id as TeamKey);
+
+        const playedMatches = await attachMatchVideos(data.playedMatches);
+
+        return playedMatches.map((match) => ({
+          teamId: team.id,
+          teamName: team.name,
+          match,
+        }));
+      })
+    );
+
+    matches = teamResults.flat();
+  } else {
+    const teamResults = await Promise.all(
+      seasonData.teams.map(async (team) => {
+        const data = await getArchiveTeamCompetitionMatches(team);
+
+        const allMatches = data.competitions.flatMap(({ matches }) => matches);
+
+        const uniqueMatches = Array.from(
+          new Map(allMatches.map((match) => [match.id, match])).values()
+        );
+
+        const playedMatches = await attachMatchVideos(uniqueMatches);
+
+        return playedMatches.map((match) => ({
+          teamId: team.id,
+          teamName: team.name,
+          match,
+        }));
+      })
+    );
+
+    matches = teamResults.flat();
+  }
+
+  matches.sort((a, b) => {
     const aDate = `${a.match.date}T${a.match.time || "00:00"}`;
-
     const bDate = `${b.match.date}T${b.match.time || "00:00"}`;
 
     return bDate.localeCompare(aDate);
   });
+
+  const seasons = sortSeasons(Object.keys(allSeasons));
 
   return (
     <main className="page-shell min-h-dvh">
@@ -64,7 +114,9 @@ export default async function AdminPage({ searchParams }: AdminPageProps) {
               Panel administratora
             </h1>
 
-            <p className="muted mt-2">Nagrania rozegranych meczów.</p>
+            <p className="muted mt-2">
+              Nagrania rozegranych meczów · sezon {selectedSeason}
+            </p>
           </div>
 
           <form action="/api/admin/logout" method="POST">
@@ -89,7 +141,12 @@ export default async function AdminPage({ searchParams }: AdminPageProps) {
           </div>
         )}
 
-        <AdminMatchList matches={matches} />
+        <AdminMatchList
+          matches={matches}
+          seasons={seasons}
+          selectedSeason={selectedSeason}
+          initialSelectedTeam={params.team}
+        />
       </div>
     </main>
   );
