@@ -1,6 +1,11 @@
 import type { Match } from "@/lib/types";
-import { teamConfig, type TeamKey } from "@/lib/teams";
-import type { ArchiveCompetition, ArchiveSeasonTeam } from "@/lib/seasons";
+
+import {
+  currentSeason,
+  type ArchiveCompetition,
+  type ArchiveSeasonTeam,
+  type TeamKey,
+} from "@/lib/seasons";
 
 import zakiMatches from "@/data/zaki.json";
 import trampkarzeMatches from "@/data/trampkarze.json";
@@ -56,17 +61,25 @@ type ApiMatch = {
   stadium?: string;
   state?: string;
   queue?: number;
+
   host: ApiTeam;
   guest: ApiTeam;
+
   scores?: {
     final?: string;
     half?: string;
     fullTime?: string;
   };
+
   playStage?: {
     id: string;
     name: string;
   };
+};
+
+type CompetitionFetchResult = {
+  matches: ApiMatch[];
+  updatedAt: Date | null;
 };
 
 function mapApiMatchToMatch(match: ApiMatch): Match {
@@ -76,28 +89,25 @@ function mapApiMatchToMatch(match: ApiMatch): Match {
     id: match.matchId,
     date,
     time: timePart?.slice(0, 5),
+
     homeTeam: match.host.name.trim(),
     awayTeam: match.guest.name.trim(),
+
     venue: match.stadium?.trim() || undefined,
+
     round:
       match.playStage?.name ||
       (match.queue !== undefined ? `Kolejka ${match.queue}` : undefined),
+
     source: "PZPN",
+
     score: match.scores?.final || match.scores?.fullTime || undefined,
+
     played: match.state === "Rozegrany",
   };
 }
 
-const CLUB_NAME = "GÓRNIK RADLIN";
-
-function isGornikMatch(match: ApiMatch) {
-  const homeTeam = match.host.name.toUpperCase();
-  const awayTeam = match.guest.name.toUpperCase();
-
-  return homeTeam.includes(CLUB_NAME) || awayTeam.includes(CLUB_NAME);
-}
-
-function isTeamMatch(match: ApiMatch, teamId: string) {
+function isTeamMatch(match: ApiMatch, teamId: string): boolean {
   return match.host.id === teamId || match.guest.id === teamId;
 }
 
@@ -116,16 +126,22 @@ function getWarsawNowString() {
   const get = (type: Intl.DateTimeFormatPartTypes) =>
     parts.find((part) => part.type === type)?.value ?? "";
 
-  return `${get("year")}-${get("month")}-${get("day")}T${get(
-    "hour"
-  )}:${get("minute")}:${get("second")}`;
+  return `${get("year")}-${get("month")}-${get(
+    "day"
+  )}T${get("hour")}:${get("minute")}:${get("second")}`;
 }
 
-function prepareApiMatches(matches: ApiMatch[]): Match[] {
+function uniqueApiMatches(matches: ApiMatch[]): ApiMatch[] {
+  return Array.from(
+    new Map(matches.map((match) => [match.matchId, match])).values()
+  );
+}
+
+function prepareUpcomingMatches(matches: ApiMatch[]): Match[] {
   const nowWarsaw = getWarsawNowString();
 
   return matches
-    .filter(isGornikMatch)
+    .filter((match) => Boolean(match.dateTime))
     .filter((match) => match.dateTime >= nowWarsaw)
     .sort((a, b) => a.dateTime.localeCompare(b.dateTime))
     .map(mapApiMatchToMatch);
@@ -135,7 +151,7 @@ function preparePlayedMatches(matches: ApiMatch[]): Match[] {
   const nowWarsaw = getWarsawNowString();
 
   return matches
-    .filter(isGornikMatch)
+    .filter((match) => Boolean(match.dateTime))
     .filter((match) => match.dateTime < nowWarsaw)
     .sort((a, b) => b.dateTime.localeCompare(a.dateTime))
     .map((match) => ({
@@ -144,10 +160,22 @@ function preparePlayedMatches(matches: ApiMatch[]): Match[] {
     }));
 }
 
-async function fetchPlayMatches(playId: string): Promise<{
-  matches: ApiMatch[];
-  updatedAt: Date | null;
-}> {
+function getLatestUpdatedAt(dates: Array<Date | null>): Date | null {
+  const validDates = dates.filter(
+    (date): date is Date =>
+      date instanceof Date && !Number.isNaN(date.getTime())
+  );
+
+  if (validDates.length === 0) {
+    return null;
+  }
+
+  return new Date(Math.max(...validDates.map((date) => date.getTime())));
+}
+
+async function fetchPlayMatches(
+  playId: string
+): Promise<CompetitionFetchResult> {
   const proxySecret = process.env.PROXY_SECRET;
 
   if (!proxySecret) {
@@ -185,10 +213,7 @@ async function fetchPlayMatches(playId: string): Promise<{
 async function fetchChampionshipMatches(
   playId: string,
   playStageId: string
-): Promise<{
-  matches: ApiMatch[];
-  updatedAt: Date | null;
-}> {
+): Promise<CompetitionFetchResult> {
   const proxySecret = process.env.PROXY_SECRET;
 
   if (!proxySecret) {
@@ -225,10 +250,45 @@ async function fetchChampionshipMatches(
   };
 }
 
-async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
-  const config = teamConfig[team];
+async function fetchCompetitionMatches(
+  competition: ArchiveCompetition
+): Promise<CompetitionFetchResult> {
+  if (competition.category === "League") {
+    return fetchPlayMatches(competition.id);
+  }
 
-  if (!config.playId) {
+  const stages = competition.stages ?? [];
+
+  if (stages.length === 0) {
+    return {
+      matches: [],
+      updatedAt: null,
+    };
+  }
+
+  const stageResults = await Promise.all(
+    stages.map((stage) => fetchChampionshipMatches(competition.id, stage.id))
+  );
+
+  return {
+    matches: uniqueApiMatches(stageResults.flatMap((result) => result.matches)),
+
+    updatedAt: getLatestUpdatedAt(
+      stageResults.map((result) => result.updatedAt)
+    ),
+  };
+}
+
+async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
+  const seasonTeam = currentSeason.teams.find(
+    (candidate) => candidate.id === team
+  );
+
+  if (!seasonTeam) {
+    throw new Error(`Brak drużyny ${team} w sezonie ${currentSeason.season}`);
+  }
+
+  if (seasonTeam.competitions.length === 0) {
     return {
       matches: [],
       playedMatches: [],
@@ -236,21 +296,63 @@ async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
     };
   }
 
-  const result = await fetchPlayMatches(config.playId);
+  const competitionResults = await Promise.all(
+    seasonTeam.competitions.map(async (competition) => {
+      try {
+        const result = await fetchCompetitionMatches(competition);
+
+        const competitionTeamId = competition.teamId ?? seasonTeam.teamId;
+
+        return {
+          ok: true as const,
+          competition,
+          matches: result.matches.filter((match) =>
+            isTeamMatch(match, competitionTeamId)
+          ),
+          updatedAt: result.updatedAt,
+        };
+      } catch (error) {
+        console.error(`Błąd pobierania rozgrywek ${competition.name}:`, error);
+
+        return {
+          ok: false as const,
+          competition,
+          matches: [] as ApiMatch[],
+          updatedAt: null,
+        };
+      }
+    })
+  );
+
+  const successfulResults = competitionResults.filter((result) => result.ok);
+
+  if (successfulResults.length === 0) {
+    throw new Error(`Nie udało się pobrać żadnych rozgrywek dla ${team}`);
+  }
+
+  const apiMatches = uniqueApiMatches(
+    competitionResults.flatMap((result) => result.matches)
+  );
 
   return {
-    matches: prepareApiMatches(result.matches),
-    playedMatches: preparePlayedMatches(result.matches),
-    updatedAt: result.updatedAt,
+    matches: prepareUpcomingMatches(apiMatches),
+
+    playedMatches: preparePlayedMatches(apiMatches),
+
+    updatedAt: getLatestUpdatedAt(
+      competitionResults.map((result) => result.updatedAt)
+    ),
   };
 }
 
 export async function getTeamScheduleData(
   team: TeamKey
 ): Promise<TeamMatchesResult> {
-  const config = teamConfig[team];
+  const seasonTeam = currentSeason.teams.find(
+    (candidate) => candidate.id === team
+  );
 
-  if (!config.playId) {
+  if (!seasonTeam) {
     return {
       matches: getFallbackMatches(team),
       playedMatches: [],
@@ -268,7 +370,9 @@ export async function getTeamScheduleData(
     return {
       matches:
         result.matches.length > 0 ? result.matches : getFallbackMatches(team),
+
       playedMatches: result.playedMatches,
+
       updatedAt: result.updatedAt,
     };
   } catch (error) {
@@ -294,30 +398,11 @@ export async function getArchiveTeamCompetitionMatches(
   const competitions = await Promise.all(
     team.competitions.map(async (competition) => {
       try {
-        let apiMatches: ApiMatch[] = [];
+        const result = await fetchCompetitionMatches(competition);
 
-        if (competition.category === "League") {
-          const result = await fetchPlayMatches(competition.id);
-          apiMatches = result.matches;
-        }
-
-        if (competition.category === "Championship") {
-          const stages = competition.stages ?? [];
-
-          const stageResults = await Promise.all(
-            stages.map((stage) =>
-              fetchChampionshipMatches(competition.id, stage.id)
-            )
-          );
-
-          apiMatches = stageResults.flatMap((result) => result.matches);
-        }
-
-        const uniqueMatches = Array.from(
-          new Map(apiMatches.map((match) => [match.matchId, match])).values()
-        );
         const competitionTeamId = competition.teamId ?? team.teamId;
-        const matches = uniqueMatches
+
+        const matches = uniqueApiMatches(result.matches)
           .filter((match) => isTeamMatch(match, competitionTeamId))
           .filter((match) => Boolean(match.dateTime))
           .sort((a, b) => b.dateTime.localeCompare(a.dateTime))
