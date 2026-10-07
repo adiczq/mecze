@@ -7,11 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "format": "prettier --write .",
-    "import:zaki": "node scripts/import-matches.mjs zaki-raw.json src/data/zaki.json",
-    "import:trampkarze": "node scripts/import-matches.mjs trampkarze-raw.json src/data/trampkarze.json",
-    "import:seniorzy": "node scripts/import-matches.mjs seniorzy-raw.json src/data/seniorzy.json",
-    "import:all": "npm run import:zaki && npm run import:trampkarze && npm run import:seniorzy"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@upstash/redis": "^1.39.0",

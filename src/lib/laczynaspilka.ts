@@ -512,27 +512,3 @@ export async function getArchiveTeamCompetitionMatches(
     competitions,
   };
 }
-
-export async function testPzpnConnection() {
-  const proxySecret = process.env.PROXY_SECRET;
-
-  if (!proxySecret) {
-    throw new Error("Brak PROXY_SECRET");
-  }
-
-  const response = await fetch(`${PROXY_URL}/pzpn-test`, {
-    headers: {
-      "x-proxy-secret": proxySecret,
-    },
-    cache: "no-store",
-  });
-
-  const data = await response.json();
-
-  return {
-    ok: response.ok,
-    status: response.status,
-    statusText: response.statusText,
-    response: data,
-  };
-}
