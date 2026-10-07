@@ -6,7 +6,7 @@ export const season2021_2022: ArchiveSeason = {
   teams: [
     {
       id: "seniorzy",
-      name: "Seniorzy",
+      name: "KS Górnik Radlin",
       teamId: "f83ad021-70a1-4fa6-b8c5-ad96772efdef",
       category: "Klasa A",
 

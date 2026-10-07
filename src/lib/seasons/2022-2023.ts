@@ -6,7 +6,7 @@ export const season2022_2023: ArchiveSeason = {
   teams: [
     {
       id: "seniorzy",
-      name: "Seniorzy",
+      name: "KS Górnik Radlin",
       teamId: "8e495ef3-5e1d-4d70-834c-973b40db3156",
       category: "Klasa okręgowa",
 
@@ -46,7 +46,7 @@ export const season2022_2023: ArchiveSeason = {
 
     {
       id: "seniorzy-ii",
-      name: "Seniorzy II",
+      name: "KS Górnik Radlin II",
       teamId: "a1ff467b-f6bd-49b8-9440-1bd8e54afe1b",
       category: "Klasa C",
 

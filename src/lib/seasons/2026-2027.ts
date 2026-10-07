@@ -162,7 +162,7 @@ export const season2026_2027: ArchiveSeason = {
 
     {
       id: "seniorzy",
-      name: "Seniorzy",
+      name: "KS Górnik Radlin",
       slug: "seniorzy",
       description: "Terminarz drużyny Seniorów",
       source: "Łączy Nas Piłka",
@@ -198,7 +198,7 @@ export const season2026_2027: ArchiveSeason = {
 
     {
       id: "seniorzyII",
-      name: "Seniorzy II",
+      name: "KS Górnik Radlin II",
       slug: "seniorzy-ii",
       description: "Terminarz drużyny Seniorów II",
       source: "Łączy Nas Piłka",
