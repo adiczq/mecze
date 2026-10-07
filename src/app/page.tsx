@@ -1,6 +1,8 @@
 import Link from "next/link";
+
 import { getGoogleMapsUrl } from "@/lib/maps";
 import { getTeamMatches } from "@/lib/laczynaspilka";
+import { archiveSeasons } from "@/lib/seasons";
 import { teamConfig, teamKeys, type TeamKey } from "@/lib/teams";
 
 import type { Match } from "@/lib/types";
@@ -18,10 +20,15 @@ function formatDate(date: string) {
   }).format(new Date(`${date}T12:00:00`));
 }
 
+function seasonToSlug(season: string) {
+  return season.replace("/", "-");
+}
+
 export default async function Home() {
   const teamMatchesEntries = await Promise.all(
     teamKeys.map(async (key) => {
       const matches = await getTeamMatches(key);
+
       return [key, matches] as const;
     })
   );
@@ -38,6 +45,10 @@ export default async function Home() {
       matches: matchesByTeam[key],
     }))
     .sort((a, b) => a.order - b.order);
+
+  const archivedSeasons = Object.values(archiveSeasons).sort((a, b) =>
+    b.season.localeCompare(a.season)
+  );
 
   const allUpcomingMatches = teams
     .flatMap((team) =>
@@ -204,6 +215,33 @@ export default async function Home() {
             })}
           </div>
         </section>
+        {archivedSeasons.length > 0 && (
+          <section className="mt-6 border-t border-slate-200 pt-5">
+            <div className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white px-4 py-4">
+              <div className="min-w-0">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-400">
+                  Archiwum wyników
+                </p>
+
+                <p className="mt-1 hidden text-sm text-slate-500 sm:block">
+                  Poprzednie sezony od kategorii Młodzik D wzwyż.
+                </p>
+              </div>
+
+              <div className="flex shrink-0 gap-2 overflow-x-auto">
+                {archivedSeasons.map((archive) => (
+                  <Link
+                    key={archive.season}
+                    href={`/archiwum/${seasonToSlug(archive.season)}`}
+                    className="whitespace-nowrap rounded-xl bg-slate-100 px-3.5 py-2 text-sm font-bold text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
+                  >
+                    {archive.season} →
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
       </section>
     </main>
   );

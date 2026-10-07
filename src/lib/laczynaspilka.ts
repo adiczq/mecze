@@ -1,5 +1,6 @@
 import type { Match } from "@/lib/types";
 import { teamConfig, type TeamKey } from "@/lib/teams";
+import type { ArchiveCompetition, ArchiveSeasonTeam } from "@/lib/seasons";
 
 import zakiMatches from "@/data/zaki.json";
 import trampkarzeMatches from "@/data/trampkarze.json";
@@ -31,6 +32,15 @@ export type TeamMatchesResult = {
   updatedAt: Date | null;
 };
 
+export type ArchiveCompetitionMatches = {
+  competition: ArchiveCompetition;
+  matches: Match[];
+};
+
+export type ArchiveCompetitionsResult = {
+  competitions: ArchiveCompetitionMatches[];
+};
+
 export function getFallbackMatches(team: TeamKey): Match[] {
   return fallbackMatches[team];
 }
@@ -53,6 +63,10 @@ type ApiMatch = {
     half?: string;
     fullTime?: string;
   };
+  playStage?: {
+    id: string;
+    name: string;
+  };
 };
 
 function mapApiMatchToMatch(match: ApiMatch): Match {
@@ -65,7 +79,9 @@ function mapApiMatchToMatch(match: ApiMatch): Match {
     homeTeam: match.host.name.trim(),
     awayTeam: match.guest.name.trim(),
     venue: match.stadium?.trim() || undefined,
-    round: match.queue !== undefined ? `Kolejka ${match.queue}` : undefined,
+    round:
+      match.playStage?.name ||
+      (match.queue !== undefined ? `Kolejka ${match.queue}` : undefined),
     source: "PZPN",
     score: match.scores?.final || match.scores?.fullTime || undefined,
     played: match.state === "Rozegrany",
@@ -79,6 +95,10 @@ function isGornikMatch(match: ApiMatch) {
   const awayTeam = match.guest.name.toUpperCase();
 
   return homeTeam.includes(CLUB_NAME) || awayTeam.includes(CLUB_NAME);
+}
+
+function isTeamMatch(match: ApiMatch, teamId: string) {
+  return match.host.id === teamId || match.guest.id === teamId;
 }
 
 function getWarsawNowString() {
@@ -124,20 +144,18 @@ function preparePlayedMatches(matches: ApiMatch[]): Match[] {
     }));
 }
 
-async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
-  const config = teamConfig[team];
+async function fetchPlayMatches(playId: string): Promise<{
+  matches: ApiMatch[];
+  updatedAt: Date | null;
+}> {
   const proxySecret = process.env.PROXY_SECRET;
 
-  if (!config.playId || !proxySecret) {
-    return {
-      matches: [],
-      playedMatches: [],
-      updatedAt: null,
-    };
+  if (!proxySecret) {
+    throw new Error("Brak PROXY_SECRET");
   }
 
   const response = await fetch(
-    `${PROXY_URL}/pzpn/plays/${encodeURIComponent(config.playId)}/matches`,
+    `${PROXY_URL}/pzpn/plays/${encodeURIComponent(playId)}/matches`,
     {
       headers: {
         "x-proxy-secret": proxySecret,
@@ -154,14 +172,76 @@ async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
     throw new Error(`Proxy ${response.status} ${response.statusText}: ${text}`);
   }
 
-  const data = (await response.json()) as ApiMatch[];
+  const matches = (await response.json()) as ApiMatch[];
 
   const updatedAtHeader = response.headers.get("x-data-updated-at");
 
   return {
-    matches: prepareApiMatches(data),
-    playedMatches: preparePlayedMatches(data),
+    matches,
     updatedAt: updatedAtHeader ? new Date(updatedAtHeader) : null,
+  };
+}
+
+async function fetchChampionshipMatches(
+  playId: string,
+  playStageId: string
+): Promise<{
+  matches: ApiMatch[];
+  updatedAt: Date | null;
+}> {
+  const proxySecret = process.env.PROXY_SECRET;
+
+  if (!proxySecret) {
+    throw new Error("Brak PROXY_SECRET");
+  }
+
+  const response = await fetch(
+    `${PROXY_URL}/pzpn/plays/${encodeURIComponent(
+      playId
+    )}/championship-matches?playStageId=${encodeURIComponent(playStageId)}`,
+    {
+      headers: {
+        "x-proxy-secret": proxySecret,
+      },
+      next: {
+        revalidate: 300,
+      },
+    }
+  );
+
+  if (!response.ok) {
+    const text = await response.text();
+
+    throw new Error(`Proxy ${response.status} ${response.statusText}: ${text}`);
+  }
+
+  const matches = (await response.json()) as ApiMatch[];
+
+  const updatedAtHeader = response.headers.get("x-data-updated-at");
+
+  return {
+    matches,
+    updatedAt: updatedAtHeader ? new Date(updatedAtHeader) : null,
+  };
+}
+
+async function fetchPzpnMatches(team: TeamKey): Promise<TeamMatchesResult> {
+  const config = teamConfig[team];
+
+  if (!config.playId) {
+    return {
+      matches: [],
+      playedMatches: [],
+      updatedAt: null,
+    };
+  }
+
+  const result = await fetchPlayMatches(config.playId);
+
+  return {
+    matches: prepareApiMatches(result.matches),
+    playedMatches: preparePlayedMatches(result.matches),
+    updatedAt: result.updatedAt,
   };
 }
 
@@ -206,6 +286,64 @@ export async function getTeamMatches(team: TeamKey): Promise<Match[]> {
   const result = await getTeamScheduleData(team);
 
   return result.matches;
+}
+
+export async function getArchiveTeamCompetitionMatches(
+  team: ArchiveSeasonTeam
+): Promise<ArchiveCompetitionsResult> {
+  const competitions = await Promise.all(
+    team.competitions.map(async (competition) => {
+      try {
+        let apiMatches: ApiMatch[] = [];
+
+        if (competition.category === "League") {
+          const result = await fetchPlayMatches(competition.id);
+          apiMatches = result.matches;
+        }
+
+        if (competition.category === "Championship") {
+          const stages = competition.stages ?? [];
+
+          const stageResults = await Promise.all(
+            stages.map((stage) =>
+              fetchChampionshipMatches(competition.id, stage.id)
+            )
+          );
+
+          apiMatches = stageResults.flatMap((result) => result.matches);
+        }
+
+        const uniqueMatches = Array.from(
+          new Map(apiMatches.map((match) => [match.matchId, match])).values()
+        );
+
+        const matches = uniqueMatches
+          .filter((match) => isTeamMatch(match, team.teamId))
+          .filter((match) => Boolean(match.dateTime))
+          .sort((a, b) => b.dateTime.localeCompare(a.dateTime))
+          .map((match) => ({
+            ...mapApiMatchToMatch(match),
+            played: true,
+          }));
+
+        return {
+          competition,
+          matches,
+        };
+      } catch (error) {
+        console.error(`Błąd pobierania rozgrywek ${competition.name}:`, error);
+
+        return {
+          competition,
+          matches: [],
+        };
+      }
+    })
+  );
+
+  return {
+    competitions,
+  };
 }
 
 export async function testPzpnConnection() {

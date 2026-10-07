@@ -6,6 +6,7 @@ type MatchListProps = {
   matches: Match[];
   playedMatches?: Match[];
   emptyMessage?: string;
+  archiveMode?: boolean;
 };
 
 function getMatchCountLabel(count: number) {
@@ -29,11 +30,51 @@ export default function MatchList({
   matches,
   playedMatches = [],
   emptyMessage = "Brak meczów do wyświetlenia.",
+  archiveMode = false,
 }: MatchListProps) {
   console.log("MATCHLIST:", {
     przyszle: matches.length,
     rozegrane: playedMatches.length,
+    archiwum: archiveMode,
   });
+
+  if (archiveMode) {
+    return (
+      <div>
+        {playedMatches.length > 0 ? (
+          <section>
+            <div className="mb-4 flex items-end justify-between gap-4">
+              <div>
+                <p className="brand text-xs font-bold uppercase tracking-[0.25em]">
+                  Wyniki
+                </p>
+
+                <h2 className="mt-1 text-2xl font-bold text-slate-900">
+                  Rozegrane mecze
+                </h2>
+              </div>
+
+              <span className="muted shrink-0 text-sm">
+                {playedMatches.length}{" "}
+                {getMatchCountLabel(playedMatches.length)}
+              </span>
+            </div>
+
+            <div className="grid gap-4">
+              {playedMatches.map((match) => (
+                <MatchCard key={match.id} match={match} />
+              ))}
+            </div>
+          </section>
+        ) : (
+          <StatusCard
+            title="Brak rozegranych meczów"
+            description="Brak wyników do wyświetlenia dla tego sezonu."
+          />
+        )}
+      </div>
+    );
+  }
 
   const [nextMatch, ...upcomingMatches] = matches;
 
