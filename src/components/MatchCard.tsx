@@ -6,6 +6,48 @@ type MatchCardProps = {
   featured?: boolean;
 };
 
+type MatchOutcome = "win" | "draw" | "loss" | null;
+
+function getMatchOutcome(match: Match): MatchOutcome {
+  if (!match.played || !match.score) {
+    return null;
+  }
+
+  const scoreMatch = match.score.match(/(\d+)\s*:\s*(\d+)/);
+
+  if (!scoreMatch) {
+    return null;
+  }
+
+  const homeScore = Number(scoreMatch[1]);
+  const awayScore = Number(scoreMatch[2]);
+
+  if (homeScore === awayScore) {
+    return "draw";
+  }
+
+  const isHome = match.homeTeam.toUpperCase().includes("GÓRNIK RADLIN");
+
+  if (isHome) {
+    return homeScore > awayScore ? "win" : "loss";
+  }
+
+  return awayScore > homeScore ? "win" : "loss";
+}
+
+function getOutcomeBar(outcome: MatchOutcome) {
+  switch (outcome) {
+    case "win":
+      return "bg-emerald-500";
+    case "draw":
+      return "bg-amber-400";
+    case "loss":
+      return "bg-red-500";
+    default:
+      return "";
+  }
+}
+
 function formatMatchDate(date: string) {
   return new Intl.DateTimeFormat("pl-PL", {
     weekday: "long",
@@ -18,15 +60,20 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
   const isHome = match.homeTeam.toUpperCase().includes("GÓRNIK RADLIN");
 
   const isPlayed = match.played === true;
-
+  const outcome = getMatchOutcome(match);
   return (
     <article
-      className={`rounded-3xl border p-5 transition sm:p-6 ${
+      className={`relative overflow-hidden rounded-3xl border p-5 transition sm:p-6 ${
         featured
           ? "featured-match border-blue-700 bg-gradient-to-br from-slate-900 via-blue-950 to-blue-700 text-white shadow-[0_16px_40px_rgba(30,64,175,0.22)]"
           : "card"
       }`}
     >
+      {!featured && outcome && (
+        <div
+          className={`absolute inset-y-0 left-0 w-[2px] ${getOutcomeBar(outcome)}`}
+        />
+      )}
       <div className="flex items-start justify-between gap-4">
         <div>
           {match.round && (
