@@ -217,8 +217,8 @@ export default async function Home() {
         </section>
         {archivedSeasons.length > 0 && (
           <section className="mt-6 border-t border-slate-200 pt-5">
-            <div className="flex items-center justify-between gap-4 rounded-2xl border border-slate-200 bg-white px-4 py-4">
-              <div className="min-w-0">
+            <div className="rounded-2xl border border-slate-200 bg-white px-4 py-4 sm:flex sm:items-center sm:justify-between sm:gap-4">
+              <div>
                 <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-400">
                   Archiwum wyników
                 </p>
@@ -228,12 +228,12 @@ export default async function Home() {
                 </p>
               </div>
 
-              <div className="flex shrink-0 gap-2 overflow-x-auto">
+              <div className="mt-3 grid grid-cols-2 gap-2 sm:mt-0 sm:flex sm:flex-wrap sm:justify-end">
                 {archivedSeasons.map((archive) => (
                   <Link
                     key={archive.season}
                     href={`/archiwum/${seasonToSlug(archive.season)}`}
-                    className="whitespace-nowrap rounded-xl bg-slate-100 px-3.5 py-2 text-sm font-bold text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
+                    className="whitespace-nowrap rounded-xl bg-slate-100 px-3 py-2 text-center text-sm font-bold text-slate-700 transition hover:bg-blue-50 hover:text-blue-600"
                   >
                     {archive.season} →
                   </Link>

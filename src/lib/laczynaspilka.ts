@@ -316,9 +316,9 @@ export async function getArchiveTeamCompetitionMatches(
         const uniqueMatches = Array.from(
           new Map(apiMatches.map((match) => [match.matchId, match])).values()
         );
-
+        const competitionTeamId = competition.teamId ?? team.teamId;
         const matches = uniqueMatches
-          .filter((match) => isTeamMatch(match, team.teamId))
+          .filter((match) => isTeamMatch(match, competitionTeamId))
           .filter((match) => Boolean(match.dateTime))
           .sort((a, b) => b.dateTime.localeCompare(a.dateTime))
           .map((match) => ({
