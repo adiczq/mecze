@@ -63,7 +63,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
   const outcome = getMatchOutcome(match);
   return (
     <article
-      className={`relative overflow-hidden rounded-3xl border p-5 transition sm:p-6 ${
+      className={`relative overflow-hidden rounded-2xl border p-4 transition sm:rounded-3xl sm:p-6 ${
         featured
           ? "featured-match border-blue-700 bg-gradient-to-br from-slate-900 via-blue-950 to-blue-700 text-white shadow-[0_16px_40px_rgba(30,64,175,0.22)]"
           : "card"
@@ -78,7 +78,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
         <div>
           {match.round && (
             <p
-              className={`text-xs font-bold uppercase tracking-[0.2em] ${
+              className={`text-[11px] font-bold uppercase tracking-[0.18em] sm:text-xs sm:tracking-[0.2em] ${
                 featured ? "text-blue-200" : "brand"
               }`}
             >
@@ -86,7 +86,11 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
             </p>
           )}
 
-          <p className={`mt-2 text-sm ${featured ? "text-blue-100" : "muted"}`}>
+          <p
+            className={`mt-1.5 text-xs sm:mt-2 sm:text-sm ${
+              featured ? "text-blue-100" : "muted"
+            }`}
+          >
             {formatMatchDate(match.date)}
             {match.time ? ` • ${match.time}` : ""}
           </p>
@@ -107,11 +111,11 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
         </span>
       </div>
 
-      <div className="my-5">
-        <div className="grid gap-3 sm:grid-cols-[1fr_auto_1fr] sm:items-center">
+      <div className="my-3 sm:my-5">
+        <div className="grid gap-2 sm:grid-cols-[1fr_auto_1fr] sm:items-center sm:gap-3">
           <div className="text-center sm:text-right">
             <p
-              className={`font-bold ${
+              className={`text-sm font-bold sm:text-base ${
                 featured
                   ? "text-white"
                   : isHome
@@ -124,7 +128,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
           </div>
 
           <div
-            className={`mx-auto min-w-[56px] rounded-full border px-3 py-2 text-center text-xs font-black ${
+            className={`mx-auto min-w-[52px] rounded-full border px-2.5 py-1.5 text-center text-xs font-black sm:min-w-[56px] sm:px-3 sm:py-2 ${
               featured
                 ? "border-white/20 bg-white/10 text-white"
                 : isPlayed && match.score
@@ -137,7 +141,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
 
           <div className="text-center sm:text-left">
             <p
-              className={`font-bold ${
+              className={`text-sm font-bold sm:text-base ${
                 featured
                   ? "text-white"
                   : !isHome
@@ -153,7 +157,7 @@ export default function MatchCard({ match, featured = false }: MatchCardProps) {
 
       {((!isPlayed && match.venue) || match.youtubeUrl) && (
         <div
-          className={`border-t pt-4 pb-1 ${
+          className={`border-t pt-3 pb-0 sm:pt-4 sm:pb-1 ${
             featured ? "border-white/15" : "border-slate-200"
           }`}
         >
