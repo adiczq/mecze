@@ -1,3 +1,5 @@
+import { season2020_2021 } from "./2020-2021";
+import { season2021_2022 } from "./2021-2022";
 import { season2022_2023 } from "./2022-2023";
 import { season2023_2024 } from "./2023-2024";
 import { season2024_2025 } from "./2024-2025";
@@ -24,6 +26,8 @@ export const allSeasons: Record<string, ArchiveSeason> = {
   [season2024_2025.season]: season2024_2025,
   [season2023_2024.season]: season2023_2024,
   [season2022_2023.season]: season2022_2023,
+  [season2021_2022.season]: season2021_2022,
+  [season2020_2021.season]: season2020_2021,
 };
 
 export const currentSeason = allSeasons[CURRENT_SEASON];
