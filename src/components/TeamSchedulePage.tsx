@@ -1,8 +1,13 @@
 import Link from "next/link";
+
+import LeagueTable from "@/components/LeagueTable";
 import MatchList from "@/components/MatchList";
-import { getTeamScheduleData } from "@/lib/laczynaspilka";
-import { teamConfig, type TeamKey } from "@/lib/teams";
+
+import { getLeagueTable, getTeamScheduleData } from "@/lib/laczynaspilka";
+
 import { attachMatchVideos } from "@/lib/match-videos";
+import { currentSeason } from "@/lib/seasons";
+import { teamConfig, type TeamKey } from "@/lib/teams";
 
 type TeamSchedulePageProps = {
   teamKey: TeamKey;
@@ -19,15 +24,47 @@ function formatLastUpdate(date: Date) {
   }).format(date);
 }
 
+function supportsLeagueTable(category: string) {
+  const normalized = category.trim().toUpperCase();
+
+  const youthCategory = normalized.match(/^([A-G])(?:\d)?/);
+
+  if (youthCategory) {
+    const level = youthCategory[1];
+
+    return ["A", "B", "C", "D"].includes(level);
+  }
+
+  // Kategorie seniorskie, np.:
+  // "Klasa okręgowa", "Klasa B", "IV Liga" itd.
+  return true;
+}
+
 export default async function TeamSchedulePage({
   teamKey,
 }: TeamSchedulePageProps) {
-  const { matches, playedMatches, updatedAt } =
-    await getTeamScheduleData(teamKey);
+  const team = teamConfig[teamKey];
+
+  const seasonTeam = currentSeason.teams.find((item) => item.id === teamKey);
+
+  const leagueCompetition = seasonTeam?.competitions.find(
+    (competition) => competition.category === "League"
+  );
+
+  const canShowLeagueTable =
+    seasonTeam && leagueCompetition && supportsLeagueTable(seasonTeam.category);
+
+  const [scheduleData, leagueTable] = await Promise.all([
+    getTeamScheduleData(teamKey),
+
+    canShowLeagueTable
+      ? getLeagueTable(leagueCompetition.id)
+      : Promise.resolve(null),
+  ]);
+
+  const { matches, playedMatches, updatedAt } = scheduleData;
 
   const playedMatchesWithVideos = await attachMatchVideos(playedMatches);
-
-  const team = teamConfig[teamKey];
 
   return (
     <main className="page-shell">
@@ -59,6 +96,11 @@ export default async function TeamSchedulePage({
           <MatchList
             matches={matches}
             playedMatches={playedMatchesWithVideos}
+            afterFeatured={
+              leagueTable && seasonTeam ? (
+                <LeagueTable table={leagueTable} teamId={seasonTeam.teamId} />
+              ) : null
+            }
           />
         </div>
       </div>

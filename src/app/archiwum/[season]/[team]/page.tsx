@@ -1,8 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import LeagueTable from "@/components/LeagueTable";
 import MatchList from "@/components/MatchList";
-import { getArchiveTeamCompetitionMatches } from "@/lib/laczynaspilka";
+
+import {
+  getArchiveTeamCompetitionMatches,
+  getLeagueTable,
+} from "@/lib/laczynaspilka";
+
 import { getArchiveTeam } from "@/lib/seasons";
 
 type ArchiveTeamPageProps = {
@@ -14,6 +20,20 @@ type ArchiveTeamPageProps = {
 
 function slugToSeason(slug: string) {
   return slug.replace("-", "/");
+}
+
+function supportsLeagueTable(category: string) {
+  const normalized = category.trim().toUpperCase();
+
+  const youthCategory = normalized.match(/^([A-G])(?:\d)?/);
+
+  if (youthCategory) {
+    const level = youthCategory[1];
+
+    return ["A", "B", "C", "D"].includes(level);
+  }
+
+  return true;
 }
 
 export default async function ArchiveTeamPage({
@@ -29,6 +49,23 @@ export default async function ArchiveTeamPage({
   }
 
   const { competitions } = await getArchiveTeamCompetitionMatches(team);
+
+  const canHaveTable = supportsLeagueTable(team.category);
+
+  const competitionsWithTables = await Promise.all(
+    competitions.map(async ({ competition, matches }) => {
+      const table =
+        canHaveTable && competition.category === "League"
+          ? await getLeagueTable(competition.id)
+          : null;
+
+      return {
+        competition,
+        matches,
+        table,
+      };
+    })
+  );
 
   return (
     <main className="page-shell">
@@ -52,7 +89,7 @@ export default async function ArchiveTeamPage({
         </p>
 
         <div className="mt-10 space-y-14">
-          {competitions.map(({ competition, matches }) => (
+          {competitionsWithTables.map(({ competition, matches, table }) => (
             <section key={competition.id}>
               <div className="mb-5">
                 <p className="brand text-xs font-bold uppercase tracking-[0.25em]">
@@ -63,6 +100,15 @@ export default async function ArchiveTeamPage({
                   {competition.name}
                 </h2>
               </div>
+
+              {table && (
+                <div className="mb-8">
+                  <LeagueTable
+                    table={table}
+                    teamId={competition.teamId ?? team.teamId}
+                  />
+                </div>
+              )}
 
               <MatchList matches={[]} playedMatches={matches} archiveMode />
             </section>

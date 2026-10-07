@@ -50,6 +50,50 @@ export function getFallbackMatches(team: TeamKey): Match[] {
   return fallbackMatches[team];
 }
 
+export type LeagueTableRow = {
+  index: number;
+  positionStatus: string;
+  promotionStatus: string;
+
+  stats: {
+    points: number;
+    matchesCount: number;
+    winsCount: number;
+    drawsCount: number;
+    losesCount: number;
+    goalsCount: number;
+    lostGoalsCount: number;
+    balanceGoalsCount: number;
+  };
+
+  team: {
+    id: string;
+    name: string;
+    logo?: string;
+    abbreviation?: string;
+  };
+
+  isCancelled: boolean;
+};
+
+export type LeagueTableData = {
+  league: {
+    id: string;
+    name: string;
+  };
+
+  play: {
+    id: string;
+    name: string;
+    zpn?: {
+      id: string;
+      name: string;
+    };
+  };
+
+  rows: LeagueTableRow[];
+};
+
 type ApiTeam = {
   id: string;
   name: string;
@@ -208,6 +252,44 @@ async function fetchPlayMatches(
     matches,
     updatedAt: updatedAtHeader ? new Date(updatedAtHeader) : null,
   };
+}
+
+export async function getLeagueTable(
+  playId: string
+): Promise<LeagueTableData | null> {
+  const proxySecret = process.env.PROXY_SECRET;
+
+  if (!proxySecret) {
+    throw new Error("Brak PROXY_SECRET");
+  }
+
+  try {
+    const response = await fetch(
+      `${PROXY_URL}/pzpn/plays/${encodeURIComponent(playId)}/tables`,
+      {
+        headers: {
+          "x-proxy-secret": proxySecret,
+        },
+        next: {
+          revalidate: 300,
+        },
+      }
+    );
+
+    if (!response.ok) {
+      const text = await response.text();
+
+      throw new Error(
+        `Proxy ${response.status} ${response.statusText}: ${text}`
+      );
+    }
+
+    return (await response.json()) as LeagueTableData;
+  } catch (error) {
+    console.error(`Błąd pobierania tabeli ${playId}:`, error);
+
+    return null;
+  }
 }
 
 async function fetchChampionshipMatches(

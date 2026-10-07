@@ -1,12 +1,15 @@
+import type { ReactNode } from "react";
+
 import MatchCard from "@/components/MatchCard";
-import type { Match } from "@/lib/types";
 import StatusCard from "@/components/StatusCard";
+import type { Match } from "@/lib/types";
 
 type MatchListProps = {
   matches: Match[];
   playedMatches?: Match[];
   emptyMessage?: string;
   archiveMode?: boolean;
+  afterFeatured?: ReactNode;
 };
 
 function getMatchCountLabel(count: number) {
@@ -31,6 +34,7 @@ export default function MatchList({
   playedMatches = [],
   emptyMessage = "Brak meczów do wyświetlenia.",
   archiveMode = false,
+  afterFeatured,
 }: MatchListProps) {
   console.log("MATCHLIST:", {
     przyszle: matches.length,
@@ -95,6 +99,8 @@ export default function MatchList({
             description={emptyMessage}
           />
         )}
+
+        {afterFeatured && <div className="mt-10">{afterFeatured}</div>}
 
         {upcomingMatches.length > 0 && (
           <section className="mt-10">
