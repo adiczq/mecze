@@ -1,16 +1,26 @@
 import Link from "next/link";
 
 import { getGoogleMapsUrl } from "@/lib/maps";
-import { getTeamMatches } from "@/lib/laczynaspilka";
+import { getTeamScheduleData } from "@/lib/laczynaspilka";
 import { archiveSeasons } from "@/lib/seasons";
 import { teamConfig, teamKeys, type TeamKey } from "@/lib/teams";
 
 import type { Match } from "@/lib/types";
 
+type HomePageProps = {
+  searchParams: Promise<{
+    date?: string;
+  }>;
+};
+
 type Team = {
   key: TeamKey;
   matches: Match[];
 } & (typeof teamConfig)[TeamKey];
+
+type MatchWithCategory = Match & {
+  category: string;
+};
 
 function formatDate(date: string) {
   return new Intl.DateTimeFormat("pl-PL", {
@@ -20,23 +30,63 @@ function formatDate(date: string) {
   }).format(new Date(`${date}T12:00:00`));
 }
 
+function formatLongDate(date: string) {
+  return new Intl.DateTimeFormat("pl-PL", {
+    weekday: "long",
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  }).format(new Date(`${date}T12:00:00`));
+}
+
 function seasonToSlug(season: string) {
   return season.replace("/", "-");
 }
 
-export default async function Home() {
-  const teamMatchesEntries = await Promise.all(
-    teamKeys.map(async (key) => {
-      const matches = await getTeamMatches(key);
+function getWarsawDateString() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Warsaw",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
 
-      return [key, matches] as const;
+function addDays(date: string, days: number) {
+  const value = new Date(`${date}T12:00:00Z`);
+
+  value.setUTCDate(value.getUTCDate() + days);
+
+  return value.toISOString().slice(0, 10);
+}
+
+function isValidDate(value?: string) {
+  return Boolean(value && /^\d{4}-\d{2}-\d{2}$/.test(value));
+}
+
+export default async function Home({ searchParams }: HomePageProps) {
+  const params = await searchParams;
+
+  const selectedDate = isValidDate(params.date) ? params.date! : "";
+
+  const today = getWarsawDateString();
+  const tomorrow = addDays(today, 1);
+
+  const teamResults = await Promise.all(
+    teamKeys.map(async (key) => {
+      const data = await getTeamScheduleData(key);
+
+      return {
+        key,
+        upcomingMatches: data.matches,
+        allMatches: [...data.matches, ...data.playedMatches],
+      };
     })
   );
 
-  const matchesByTeam = Object.fromEntries(teamMatchesEntries) as Record<
-    TeamKey,
-    Match[]
-  >;
+  const matchesByTeam = Object.fromEntries(
+    teamResults.map(({ key, upcomingMatches }) => [key, upcomingMatches])
+  ) as Record<TeamKey, Match[]>;
 
   const teams: Team[] = teamKeys
     .map((key) => ({
@@ -50,7 +100,7 @@ export default async function Home() {
     b.season.localeCompare(a.season)
   );
 
-  const allUpcomingMatches = teams
+  const allUpcomingMatches: MatchWithCategory[] = teams
     .flatMap((team) =>
       team.matches.map((match) => ({
         ...match,
@@ -62,6 +112,24 @@ export default async function Home() {
         new Date(`${a.date}T${a.time ?? "00:00"}`).getTime() -
         new Date(`${b.date}T${b.time ?? "00:00"}`).getTime()
     );
+
+  const allSeasonMatches: MatchWithCategory[] = teamResults.flatMap(
+    ({ key, allMatches }) =>
+      allMatches.map((match) => ({
+        ...match,
+        category: teamConfig[key].name,
+      }))
+  );
+
+  const dateMatches = selectedDate
+    ? Array.from(
+        new Map(
+          allSeasonMatches
+            .filter((match) => match.date === selectedDate)
+            .map((match) => [match.id, match])
+        ).values()
+      ).sort((a, b) => (a.time ?? "00:00").localeCompare(b.time ?? "00:00"))
+    : [];
 
   const nextMatch = allUpcomingMatches[0];
 
@@ -85,29 +153,56 @@ export default async function Home() {
             </div>
 
             {nextMatch && (
-              <div className="min-w-[230px] rounded-2xl border border-white/15 bg-white/10 px-6 py-5 backdrop-blur">
-                <div className="flex items-center gap-2">
-                  <span className="live-dot" />
+              <div className="flex min-w-[230px] flex-col gap-3">
+                <div className="rounded-2xl border border-white/15 bg-white/10 px-6 py-5 backdrop-blur">
+                  <div className="flex items-center gap-2">
+                    <span className="live-dot" />
 
-                  <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-blue-200">
-                    Najbliższy mecz
+                    <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-blue-200">
+                      Najbliższy mecz
+                    </p>
+                  </div>
+
+                  <p className="mt-2 text-sm font-semibold">
+                    {formatDate(nextMatch.date)}
+                    {nextMatch.time ? ` • ${nextMatch.time}` : ""}
                   </p>
+
+                  <p className="mt-2 text-base font-bold">
+                    {nextMatch.homeTeam}
+                  </p>
+
+                  <p className="text-sm text-blue-200">vs</p>
+
+                  <p className="text-base font-bold">{nextMatch.awayTeam}</p>
                 </div>
 
-                <p className="mt-2 text-sm font-semibold">
-                  {formatDate(nextMatch.date)}
-                  {nextMatch.time ? ` • ${nextMatch.time}` : ""}
-                </p>
-
-                <p className="mt-2 text-base font-bold">{nextMatch.homeTeam}</p>
-
-                <p className="text-sm text-blue-200">vs</p>
-
-                <p className="text-base font-bold">{nextMatch.awayTeam}</p>
+                <Link
+                  href="/kalendarz"
+                  className="hidden items-center justify-between rounded-xl border border-white/20 bg-white px-5 py-3 text-sm font-bold text-blue-700 transition hover:bg-blue-50 sm:flex"
+                >
+                  <span>Mecze według daty</span>
+                  <span>→</span>
+                </Link>
               </div>
             )}
           </div>
         </section>
+
+        <Link
+          href="/kalendarz"
+          className="mt-3 flex items-center justify-between rounded-2xl border border-slate-200 bg-white px-5 py-4 text-sm font-bold text-slate-900 transition hover:border-blue-200 hover:bg-blue-50 sm:hidden"
+        >
+          <div>
+            <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-blue-600">
+              Kalendarz
+            </p>
+
+            <p className="mt-0.5">Mecze według daty</p>
+          </div>
+
+          <span className="text-lg text-blue-600">→</span>
+        </Link>
 
         <section className="mt-6 grid grid-cols-2 gap-3 min-[430px]:grid-cols-3 sm:gap-4">
           {teams.map((team) => (
@@ -215,6 +310,7 @@ export default async function Home() {
             })}
           </div>
         </section>
+
         {archivedSeasons.length > 0 && (
           <section className="mt-6 border-t border-slate-200 pt-5">
             <div className="rounded-2xl border border-slate-200 bg-white px-4 py-4 sm:flex sm:items-center sm:justify-between sm:gap-4">
