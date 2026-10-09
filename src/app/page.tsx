@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import { getGoogleMapsUrl } from "@/lib/maps";
 import { getTeamScheduleData } from "@/lib/laczynaspilka";
@@ -136,10 +137,37 @@ export default async function Home({ searchParams }: HomePageProps) {
   return (
     <main className="page-shell">
       <section className="mx-auto max-w-7xl px-5 py-8 sm:px-8 sm:py-10">
-        <section className="hero-panel overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
-          <p className="text-xs font-bold uppercase tracking-[0.3em] text-blue-200">
-            Górnik Radlin
-          </p>
+        <section className="hero-panel relative overflow-hidden rounded-4xl px-6 py-7 sm:px-9 sm:py-9">
+          <div className="flex items-center gap-3">
+            <Image
+              src="/gornik-radlin.png"
+              alt=""
+              width={180}
+              height={180}
+              aria-hidden="true"
+              className="
+    pointer-events-none
+    absolute
+    right-8
+    top-8
+    h-20
+    w-20
+    object-contain
+    opacity-25
+    lg:left-[43%]
+    lg:right-auto
+    lg:top-1/2
+    lg:h-56
+    lg:w-56
+    lg:-translate-x-1/2
+    lg:-translate-y-1/2
+  "
+            />
+
+            <p className="text-xs font-bold uppercase tracking-[0.3em] text-blue-200">
+              Górnik Radlin
+            </p>
+          </div>
 
           <div className="mt-3 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
             <div>
